@@ -1,0 +1,140 @@
+
+
+/*Set base font size and font family for the entire document*/
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+/*Container box that centers the content and limits width */
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05); /* subtle outer shadow*/
+}
+
+
+
+.underline {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 10px 0 30px;
+}
+
+
+
+/*Main Title Styling */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+
+
+/*Subtitle styling */
+h2{
+    text-align: center;
+    color: #006EB6;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size:  16px;
+    letter-spacing: 1.5px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/*Line under subtitle*/ 
+.underline {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    margin: 10px 0 30px;
+}
+
+
+
+/*Paragraphs: left-aligned inside centered container */
+p{
+    text-align: left;
+    margin: 15px 0;
+}
+
+/* Intro Paragraph */
+.intro {
+    font-style: italic;
+    margin-top: 30px;
+}
+
+
+/*Ordered List*/
+ol {
+    padding-left: 40px;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/*List styling */
+ul{
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+/* Image/logo styling */
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+.footer-logo{
+   
+      display: block;
+    margin: 40px auto 0;
+    width: 120px;
+    height: auto;
+    max-width: 120px;
+}
+
+
+.dark{
+    background-color: #333;
+    color: white;
+}
+
+.dark h2 {
+    color: #7FDBFF; /*lighter color to contrast*/
+}

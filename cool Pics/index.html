@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- character encoding-->
+    <meta charset="UTF-8">
+
+    <!--Viewport settings for responsive design-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Meta description for SEO-->
+    <meta name="description" content="Cool Pics gallery site for displaying photos.">
+    
+    <!--Author information-->
+    <meta name="author" content="Lora Chisholm">
+
+    <!--page title-->
+    <title>Cool Pics</title>
+
+    <!--Link to eternal CSS file-->
+    <link rel="stylesheet" href="coolpics.css">
+
+    <!--Link to eternal JavaScript file-->
+    <script src="coolpics.js" defer></script>
+
+
+</head>
+<body>
+
+    <!--QUESTION  Navigation back to this page -- ask if this is better here or in main??-->
+    <a href="coolpics/index.html">Coolpics</a>
+    
+    
+    <header>
+        <h1>Cool Pics</h1>
+        
+        <!--Toggle button for showing and hiding the mobile navigation menu-->
+        <button id= "menu-button">Menu</button>
+
+        <nav id="nav-menu">
+            <ul class="hide">
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">Gallery</a></li>
+
+                <li><a href="#">Contact</a></li>
+        
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Current Work</h2>
+        <section class="gallery">
+            <figure>
+                <img src="norris-sm.jpeg" alt="Small image of a lake geyser">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="Wide view of the same geyser">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="close up of geyser">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="geyser landscape">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="Close up of geyser front">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="Scenic lake geyser">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="Smaller view of geyser mist">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="lake geyser wide frame">
+            </figure>
+            <figure>
+                <img src="norris-sm.jpeg" alt="Another angle of the lake geyser eruption">
+            </figure>
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Question how do I get the smiley face icon at the end of the sentance below? -->
+        <p>©2023 Not a real site 😀</p>
+    </footer>
+<dialog id="imageModal">
+    <button class="close-viewer">X</button>
+    <img id="modalImage" src=""alt="Full-size view of selected image">
+</dialog>    
+</body>
+</html>

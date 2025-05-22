@@ -1,0 +1,219 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+
+:root {
+    --primary-color: #52489c;
+    --secondary-color: #59c3c3;
+    --accent-color: #f45b69;
+    --text-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --secondary-font: 'Mooli', sans-serif;
+
+}
+
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1.2em;
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+}
+
+h2 {
+
+    text-align: center;
+    margin-bottom: 1rem;
+}
+a:link,
+a:visited {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+header,
+footer {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0.5rem 0;
+
+}
+
+button {
+    background: none;
+    border: none;
+    color: var(--text-light);
+    font-size: 1 em;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+
+body {
+    background-color: #eaeaea;
+}
+
+
+
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    max-width: 100%;
+    display: block;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* subtle shadow */
+    border-radius: 4px; /* optional: adds soft corners */
+    background-color: white; /* helps shadow stand out */
+    padding: 8px;  /*Creates a visible border effect */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow */
+    border-radius: 4px;   /* Slight rounding like the mockup */
+}
+
+
+
+.gallery {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* commented out - so js will toggle instead*/
+/*#nav-menu {
+
+    display: block !important;
+    background-color: yellow;
+    
+}*/
+
+#nav-menu.open {
+    display: block;
+}
+
+@media screen and (min-width: 700px) {
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 2 rem;
+}
+
+nav li {
+    margin: 0;
+}
+
+button {
+    display: none;
+}
+}
+
+@media screen and (min-width: 1000px) {
+
+    /* Gallery becomes 3 columns */
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    /* Nav becomes horizontal */
+    nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+
+    nav li {
+        margin: 0;
+    }
+
+    /* Hide the menu button*/
+    #menu-button {
+        display: none;
+    }
+}
+
+
+.hide {
+    display: none;
+}
+
+
+/* Style the dialog modal container to cover the full screen with a dark overlay */
+
+dialog {
+
+    width: 100%;                            /* take up full width of the screen */
+    height: 100%;                           /* Take up full height of the screen*/
+    background-color: rgba(0,0,0,0.6);      /* 60% black tansparent background*/
+    padding: 0;                                /* Remove default internal padding */
+    border: none;                               /*Remove default border*/
+    position: fixed;                            /*Fix it in place on screen*/
+    top: 0;                                     /*Align to top of viewport */
+    left: 0;                                    /*Make sure it appears above other content */
+    z-index: 10;                                /*Make sure it appears above other content*/
+    display: flex;                              /*Use flexbox for centering */
+    Justify-content: center;                    /*Center horizontally */
+    align-items: center;                        /* Center vertically */
+}
+
+
+
+
+
+
+/* Style the dark background behind the modal */
+dialog::backdrop{
+    background: rgba(0,0,0,0.6);  /* to match the same semi transparent dark look*/
+}
+
+
+
+
+
+/* Style the image display in the model*/
+#modelImage {
+
+    max-height: 90%;     /* Prevent the image from being too tall*/
+    width: 90%;          /* Make the image take up most of the screen width*/
+    margin: 20vh auto;   /* Push the image down from the top and center it*/
+    Display: block;      /* Make sure it respects vertical spacing and centers properly*/
+}
+
+
+/* Style the close (X) button inside the modal*/
+.close-viewer {
+
+    position: absolute;     /*allow exact positioning */
+    top: 20vh;              /* Align it with the top of the image*/
+    right: 2vw;             /* slight space from the right edge of the screen */
+    background: white;    /* white background so it stands out */
+    border: none;           /* No border for a clean look */
+    font-size: 1.5rem;      /* Make it big enough to tap easily */
+    cursor: pointer;        /* Show pointer cursor when hovering */
+}
