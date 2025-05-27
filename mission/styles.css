@@ -141,8 +141,6 @@ ul{
 
 
 /*styling the main index page*/
-.week-section{
-    
-    margin-bottom: 30px;
-
+[class^="Week_"] {
+  margin-bottom: 30px;
 }
