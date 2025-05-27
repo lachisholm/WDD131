@@ -141,7 +141,7 @@ ul{
 
 
 .page-title {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', cursive !important;
   font-size: 48px;
   text-align: center;
   font-weight: normal;
