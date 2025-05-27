@@ -144,3 +144,15 @@ ul{
 [class^="Week_"] {
   margin-bottom: 30px;
 }
+
+
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2 pm;
+    margin-bottom: 20px;
+}
