@@ -96,12 +96,6 @@ ol li {
 }
 
 
-
-
-
-
-
-
 /*List styling */
 ul{
     text-align: left;
@@ -146,7 +140,7 @@ ul{
 }
 
 
-h2 {
+.page-title {
   font-family: 'Great Vibes', cursive;
   font-size: 48px;
   text-align: center;
