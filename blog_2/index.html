@@ -1,0 +1,98 @@
+<!-- HTML5 doctype declaration -->
+<!DOCTYPE html lang="en">
+
+<!-- Head section for metadata and Links --> 
+   <head>
+   
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!--Responsive design meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Review blog</title>
+    
+    <!--Short description for search engines -->
+    <meta name="description" content="A simple book review blog site.">
+    
+    <!-- Author name -->
+    <meta name="author" content="Your Name">
+
+
+
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="blog.css">
+    <script src="blog.js" defer></script>
+
+    <!-- Link to the JavaScript file, Loaded after HTML -->
+    <script src="blog.js" defer></script>
+    
+    </head>
+
+    <!-- Bisible content of the page -->
+    <body>
+        <div class="skiptocontent">
+            <a href="#maincontent">Skip to main content</a>
+        </div>
+
+
+    <!-- Page header with title and navigation -->
+    <header role="banner">
+
+        <h1>Book Review blog</h1><h1>
+
+            <!-- Main navigation menu -->
+        <nav>
+            <ul>    
+                <li><a href="about.html">About</a></li>
+                <li><a href="archive.html">Archive</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Main content area -->
+    <main id="maincontent" tabindex="-1" role="main">
+    
+        <!-- Section for blog articles -->
+        <div class="articles">
+            <article>
+                <div class="article-details">
+                    <p class="author">By: F. Scott Fitzgerald</p>
+                    <time class="date" datetime="2025-01-01">January 1, 2025</time>
+                </div>
+                <div class="article-content">
+                    <h2>The Great Gatsby</h2>
+                    <img src="images/gatsby.jpg" alt="Cover of The Great Gatsby">
+                    <p>a novel set in the Jazz Age that tells the story of Jay Gatsby's tragic pursuit of wealth and romance.</p>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-details">
+                    <p class="author">By: Harper, Lee</p>
+                    <time class="date" datetime="1960">1960</time>
+                </div>
+                <div class="article-content">
+                    <h2>To Kill a Mockingbird</h2>
+                    <img src="images/mockingbird.jpg" alt="Cover of To Kill a Mockingbird">
+                    <p>A story of racial injustice and moral growth in the deep south through the eyes of a young girl</p>
+                </div>
+            </article>
+        </div>
+
+    
+        <!-- Sidebar for future filter form -->
+        <aside class="filters" aria-label="Filter options">
+            <p>Filter form will go here</p>
+        </aside>
+
+    </main>   
+
+    <!--Footer with copyright -->
+    <footer>
+        <p>&copy; 2025 Book Review Blog</p>
+    </footer>
+
+    </body>
+</html>
