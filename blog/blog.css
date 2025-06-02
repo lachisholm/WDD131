@@ -1,0 +1,154 @@
+/* Import Lora from Google Fonts*/
+@import url("gttps://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+
+:root {
+    --color-gold: #EFC69B;
+    --color-red: #AF1B3F;
+    --color-dark: #473144;
+}
+
+/* Base resets and typography */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--color-dark);
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    color: var(--color-dark)
+}
+
+/* Link styles*/
+a {
+    color: var(--color-red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Navigation Grid*/
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;  /* space between links */
+    justify-content: end; /* push all columns to the right edge*/
+    justify-items: end; /* align each link within its column to the right */
+    list-style: none;  /*remove bullets*/
+    margin: 0;  /*reset default UL margin*/
+    padding: 0;  /* reset default UL padding */
+
+}
+
+/* Main content: two-column layout, articles on left, filters on right */
+#maincontent {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem; /* space between the two columns */
+    padding: 1rem; /* optional: adds breathing room around content*/
+}
+
+/* Article Layout: details left and content right*/
+article {
+    display: grid;
+    grid-template-columns: 1 fr 3 fr;
+    gap: 1 rem; /* Space between details and content */
+    margin-bottom: 2rem; /* separate articles vertically */
+}
+
+.article-details {
+    /* center or style the details side */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.article-details .author,
+.article-details .date {
+
+    margin: 0;
+    color: var(--color-dark);
+    font-size: 0.9rem;
+}
+
+.article-content h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: var(--color-dark);
+}
+
+.article-content img{
+    max-width: 100%;
+    height: auto;
+    display: black;
+    margin: 0.5rem 0;
+}
+
+.article-content p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Header styling */
+header {
+    background-color: var(--color-gold);
+    padding: 1rem 0;  /* top/bottom padding */
+    border-bottom: 4px solid var(--color-red);
+    text-align: center;  /* center the title and nav*/
+}
+
+/*page title */
+header h1{
+    margin: 0;
+    font-size: 2.5rem;  /* Larger title size */
+    color: var(--color-dark);
+}
+
+/* Navigation container */
+header nav {
+    margin: 0 auto;   /* center the nav black */
+    padding: 0.5rem 0;  /*increase navbar height */
+    max-width: 600px;   /* prevent links from stretching to edges */
+    border-top: 2 px solid var(--color-dark);
+}
+
+/* Navigation list items (Links alread grid aligned) */
+header nav ul li a {
+    font-size: 1.1rem;   /* slightly larger link text */
+    color: var(--color-dark);
+}
+
+/* Add a bottom border below nav */
+header nav ul {
+    border-bottom: 2px solid var(--color-dark);
+    padding-bottom: 0.5rem;  /* space below nav links */
+}
+
+/* Hide skip-Link offscreen until focused */
+.skiptocontent {
+    position: absolute;
+    top: -40px;
+    left: 0;
+}
+
+.skiptocontent a {
+    background-color: var(--color-gold);
+    color: var(--color-dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* When the link is focused, bring it onscreen */
+.skiptocontent a:focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
