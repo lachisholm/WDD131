@@ -1,0 +1,87 @@
+/* style.css */
+
+/* Basic reset and background*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+
+/* Form grid Layout */
+
+.form-grid {
+    display: grid;
+    grid-template-areas:
+    "front"
+    "back"
+    "button";
+    gap: 1.5rem;
+    width: 350px;
+}
+
+/* Shared card container styles*/
+
+.card-front
+.card-back {
+    background-color: #ffffff;
+    border-radius: 12 px;
+    box-shadow: 0 4 px 10 px rgba(0,0,0,0.15);
+    padding: 1.5rem;
+    display: grid;
+    gap: 1rem;
+}
+
+
+/* Card front and back positioning*/
+.card-front {
+    grid-area: front;
+    position: relative;
+    z-index: 2;
+}
+
+.card-back {
+    grid-area: back;
+    position: relative;
+    z-index: 1;
+}
+
+
+/*Input styling */
+input[type="text"] {
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1 rem;
+}
+
+/* Button styling*/
+button[type="submit"] {
+    grid-area: button;
+    padding: 0.8rem;
+    background-color: #0c6cf2;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #084bb5;
+}
+
+
+/* Card image styling */
+.card-image {
+    display: block;
+    margin-top: 1rem;
+    width: 55px;
+    height: auto;
+}
