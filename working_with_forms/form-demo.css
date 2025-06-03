@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif:
+    font-family: Arial, sans-serif;
     margin: 20px;
 }
 
@@ -28,16 +28,16 @@ select::-sebkit-outer-spin-button {
 
 
 select {
-    -moz-appearance: none:
-    -webkit-appearance: none:
-    appearance: none.
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
 }
 
 .hide {
-    display: none:
+    display: none;
 }
 
-?* Additional styling from instructions */
+/* Additional styling from instructions */
 label {
     display: block;
     margin-bottom: 8px;
