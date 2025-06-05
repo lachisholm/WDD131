@@ -1,5 +1,5 @@
 /* Import Lora from Google Fonts*/
-@import url("gttps://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 
 :root {
@@ -59,7 +59,7 @@ nav ul {
 article {
     display: grid;
     grid-template-columns: 1 fr 3 fr;
-    gap: 1 rem; /* Space between details and content */
+    gap: 1rem; /* Space between details and content */
     margin-bottom: 2rem; /* separate articles vertically */
 }
 

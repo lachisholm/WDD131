@@ -196,7 +196,7 @@ article {
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 1rem;
-    align items: start;
+    align-items: start;
 }
 
 
