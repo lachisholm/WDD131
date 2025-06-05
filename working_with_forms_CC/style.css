@@ -27,10 +27,10 @@ body {
 
 /* Shared card container styles*/
 
-.card-front
+.card-front,
 .card-back {
     background-color: #ffffff;
-    border-radius: 12 px;
+    border-radius: 12px;
     box-shadow: 0 4 px 10 px rgba(0,0,0,0.15);
     padding: 1.5rem;
     display: grid;
