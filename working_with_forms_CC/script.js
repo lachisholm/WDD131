@@ -38,6 +38,6 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log("Expiry:", expiry);
     console.log("CVV:", CVV);
 
-    alert("Form submitted successfully! (Simulated)");
+    alert("Form submitted successfully!");
 });
 });
