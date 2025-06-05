@@ -21,7 +21,7 @@ const books = [
       title: "Belgariad Book One: Pawn of Prophecy",
       author: "David Eddings",
       date: "Feb 12, 2022",
-      image: "https://images-na.ssl-images-amazon.com?I?41ZxXA+nInL.jpg",
+      image: "https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
       description: "A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms.  Young Garion, with his 'Aunt Pol' and an elderly man calling himself Wolf-a father and daughter granted near immotality by one of the Gods set out on a complex mission."
     }
   

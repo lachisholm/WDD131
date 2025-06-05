@@ -73,15 +73,18 @@ nav ul {
 }
 
 .article-content h2 {
+    margin: 0 0 0.5rem 0;
     margin-top: 0;
-    font-size: 1.5rem;
     color: var(--color-dark);
+    font-size: 2rem;
+    font-weight: bold;    
 }
+
 
 .article-content img{
     max-width: 100%;
     height: auto;
-    display: black;
+    display: block;
     margin: 0.5rem 0;
 }
 
@@ -110,7 +113,7 @@ header nav {
     margin: 0 auto;   /* center the nav black */
     padding: 0.5rem 0;  /*increase navbar height */
     max-width: 600px;   /* prevent links from stretching to edges */
-    border-top: 2 px solid var(--color-dark);
+    border-top: 2px solid var(--color-dark);
 }
 
 /* Navigation list items (Links alread grid aligned) */
@@ -147,11 +150,7 @@ header nav ul {
     z-index: 100;
 }
 
-.article-content h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 0 0 0.5rem 0;
-}
+
 
 .article-details .author {
     font-size: 0.9rem;
