@@ -55,13 +55,7 @@ nav ul {
     padding: 1rem; /* optional: adds breathing room around content*/
 }
 
-/* Article Layout: details left and content right*/
-article {
-    display: grid;
-    grid-template-columns: 1 fr 3 fr;
-    gap: 1 rem; /* Space between details and content */
-    margin-bottom: 2rem; /* separate articles vertically */
-}
+
 
 .article-details {
     /* center or style the details side */

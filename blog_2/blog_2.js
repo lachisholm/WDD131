@@ -15,7 +15,16 @@ const books = [
         date: "1960",
         image: "images/mockingbird.jpg", 
         description: "A story of racial injustice and moral growth in the deep south through the eyes of a young girl"
+    },
+
+    {
+      title: "Belgariad Book One: Pawn of Prophecy",
+      author: "David Eddings",
+      date: "Feb 12, 2022",
+      image: "https://images-na.ssl-images-amazon.com?I?41ZxXA+nInL.jpg",
+      description: "A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms.  Young Garion, with his 'Aunt Pol' and an elderly man calling himself Wolf-a father and daughter granted near immotality by one of the Gods set out on a complex mission."
     }
+  
 ];
 
 // grab the container where articles should go
@@ -24,7 +33,7 @@ const container = document.querySelector('.articles');
 //For each book object, create and append an <article>;
 books.forEach(book => {
     const articleEl = document.createElement('article');
-    articleEl.classList.add(''); //add any needed classes, or leave blank)
+  
 
 
    articleEl.innerHTML = `
