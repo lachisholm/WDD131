@@ -19,12 +19,12 @@ const books = [
 ];
 
 // grab the container where articles should go
-const container = document.guerySelector('.articles');
+const container = document.querySelector('.articles');
 
 //For each book object, create and append an <article>;
 books.forEach(book => {
-    const articleE1 = document.createElement('article');
-    articleE1.classList.add(''); //add any needed classes, or leave blank)
+    const articleEl = document.createElement('article');
+    articleEl.classList.add(''); //add any needed classes, or leave blank)
 
 
    articleEl.innerHTML = `
