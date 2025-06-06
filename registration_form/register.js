@@ -95,7 +95,7 @@ function attachAddParticipantListener() {
 
 /*
  called when the form is submitted.
- Right now, we just prevent the default reload;
+prevent the default reload;
  */
 
 function submitForm(event) {
