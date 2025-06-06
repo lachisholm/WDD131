@@ -3,6 +3,7 @@ let participantCount = 1;
 
 document.addEventListener("DOMContentLoaded", () => {
     attachAddParticipantListener();
+    attachFormSubmitListener();     
 });
 
 /*
@@ -78,3 +79,25 @@ function attachAddParticipantListener() {
     });
 }
 
+/*
+ *Attach a submit listener to the form (id="registrationForm").
+ *On submit, call submitForm().
+ */
+
+ function attachFormSubmitListener() {
+    const form = document.getElementById("registrationForm");
+    if(!form) {
+        console.error("Cannot find #registrationForm");
+        return;
+    }
+    form.addEventListener("submit, submitForm");
+}
+
+/*
+ called when the form is submitted.
+ Right now, we just prevent the default reload;
+ */
+
+function submitForm(event) {
+    event.preventDefault();
+}
