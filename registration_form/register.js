@@ -100,4 +100,14 @@ function attachAddParticipantListener() {
 
 function submitForm(event) {
     event.preventDefault();
+
+    //1. Sum all fee inputs whose id begins with "fee"
+    let feeElements = document.querySelectorAll("[id^='fee']");
+    feeElements= [...feeElements];  // converts NodeList to array
+    const total = feeElements.reduce((acc, inputEl) => {
+        const val = parseFloat(inputEl.value);
+        return acc + (isNaN(val) ? 0 : val);
+    },0);
+
+
 }
