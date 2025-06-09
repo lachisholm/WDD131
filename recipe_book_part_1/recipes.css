@@ -174,3 +174,16 @@ margin-bottom: 0.5rem;
 }
 }
 
+
+/* constrain overall layout at desktop size*/
+@media (min-width: 960px) {
+    .site-header,
+    .site-main,
+    .site-footer {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
