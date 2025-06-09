@@ -94,5 +94,61 @@ img {
     background-color: var(--secondary-color);
 }
 
+/* Recipe list container */
+.recipes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+}
 
+
+/* Individual recipe card */
+.recipe-card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Card image*/
+.recipe-card img {
+width: 100%;
+border-radius: 4px;
+margin-bottom: 0.5rem;
+}
+
+
+
+/* Recipe title */
+.recipe-card h2{
+    font-family: var(--secondary-font);
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+
+/*Hide description on narrow screens */
+.recipe-card .description {
+    display: none;
+
+}
+
+/*Star rating */
+.recipe-card .rating {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+
+/* "View Recipe" button/link */
+.recipe-card .view-recipe {
+    display: inline-block;
+    margin-top: auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primar-color);
+}
 
