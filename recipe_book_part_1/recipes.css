@@ -1,0 +1,35 @@
+/* custom properties */
+:root {
+    --primary-color: #1B98E0;
+    --secondary-color: #59c3c3;
+    --test-dark: #333;
+    --text-light: #ebebeb;
+    --primary-font: Arial, Helvetica, sans-serif;
+    --secondary-font: "Amatic SC", cursive;
+    
+}
+    /* Global box-sizing and reset */
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+}
+
+body{
+        margin: 0;
+        padding: 0;
+        font-family: var(--primary-font);
+        color: var(--text-dark);
+        background-color: var(--text-light);
+}
+
+
+/* Ensure images scale down to fit their container */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+

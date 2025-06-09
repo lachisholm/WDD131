@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-*"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Recipe book</title>
+        
+        <!-- link to your CSS -->
+         <link rel="stylesheet" href="recipes.css" />
+    </head>
+    <body>
+        <header class="site-header">
+            <img src="images/recipe-book.png" alt="Recipe Book logo" class="logo">
+            <h1>My Recipe Book</h1>
+        <header>
+
+        <main class="site-main">
+            <!-- search form and recipes will go here -->
+
+            <form class="search-form" action="#" method="get">
+                <label for="search-input" class="visually-hidden">Search recipes</label>
+                <input
+                type="search"
+                id="search-input"
+                name="search"
+                placeholder="Search recipes..."
+                required
+            />
+            
+            <section class="recipes-list">
+                <article class="recipe-card">
+                    <img src="images/your-image.jpg" alt="Your Recipe Name">
+                    <h2>Your Recipe Name</h2>
+                    <p class="description">A short description of this recipe should go here --note to self. </p>
+                    <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+                       <span aria-hidden="true" class="icon-star">note to self -- figure out how to put icon star here</span>
+                       <span aria-hidden="true" class="icon-star">note to self --figure out how to put icon star here</span>
+                       <span aria-hidden="true" class="icon-star">note to self --figure out how to put icon star here</span>
+                       <span aria-hidden="true" class="icon-star">note to self --figure out how to put icon star here</span>
+                       <span aria-hidden="true" class="icon-star">note to self -- figure out how to put icon star here</span>
+                       <a href="#" class="view-recipe">View Recipe</a>
+                    </article>
+                </section>
+
+            <button type="submit" aria-label="Search">
+            
+            </button>
+        </main>
+
+
+        <footer class="site-footer">
+            <!-- attribution and social icons will go here -->
+            <p class="attribution" style="font-size:0.6em;">
+                <a href="https://www.flaticon.com/free-cons/recipe" title="recipe icons">
+                Recipe icons created by Freepil - Flaticon
+                </a>
+            </p>
+
+            <div class="social">
+                <!-- Social media icons provided under cc form https://www.iconfinder.com -->
+                <a href="#"><img src="images/instagram_icon.svg" alt="Instagram icon"></a>
+                <a href="#"><img src="images/youtube_icon.svg" alt="YouTube icon"></a>
+                <a href="#"><img src="images/pinterest_icon.svg" alt="Pinterest icon"></a>
+            </div>
+                 
+        </footer>
+
+
+        <!-- header, main content, footer will go here -->
+
+        <!--Load your module and script -->
+        <script type="module" src="recipes.mjs"></script>
+        <script src="main.js"></script>
+    </body>
+    </html>
+
