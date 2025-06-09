@@ -152,3 +152,25 @@ margin-bottom: 0.5rem;
     color: var(--primar-color);
 }
 
+/* layout adjusts at tablet size */
+@media (min-width: 600px) {
+    /* Switch recipe list to row flow and allow wrapping */
+    .recipes-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    /* Each card takes roughly half the width minus gap */
+    .recipe-card {
+        flex: 1 1 calc(50% - 1rem);
+}
+
+/* Reveal the description on larger viewports */
+.recipe-card .description{
+    display: block;
+    margin: 0.5rem 0;
+    color: var(--text-dark);
+}
+}
+
