@@ -187,3 +187,21 @@ margin-bottom: 0.5rem;
 }
 
 
+/* size social icons in the footer */
+
+.site-footer .social img {
+    width: 1.5rem;
+    height: auto;
+    display: inline-blocks;
+}
+
+
+/* Optional: space them out */
+.site-footer .social {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 0;
+}
+
