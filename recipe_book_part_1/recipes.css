@@ -149,7 +149,7 @@ margin-bottom: 0.5rem;
     margin-top: auto;
     text-decoration: none;
     font-weight: bold;
-    color: var(--primar-color);
+    color: var(--primary-color);
 }
 
 /* layout adjusts at tablet size */
