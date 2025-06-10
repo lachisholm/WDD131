@@ -2,16 +2,16 @@
 
 export const recipes = [
     { id: 1, 
-      name: "Chocolate Cake", 
-      image: "images/chocolate-cake.jpg", 
-      description: " A rich and moist chocolate cake perfect for dessert", 
+      name: "Chocolate Chip Cookies", 
+      image: "images/chocolate-chip-cookies.jpg", 
+      description: "Classic homemade cookies with gooey chocolate chips", 
       rating: 4 
     },
     {
         id: 2,
-        name: "Avocado Toast",
-        image: "images/avocado-toast.jpg",
-        description: "Creamy avocado spread on toasted bread, topped with seasoning.",
+        name: "Apple Crisp",
+        image: "images/apple-crisp.jpg",
+        description: "A classic dessert with tender apples and a crispy oat topping",
         rating: 5 },
 
 ];
