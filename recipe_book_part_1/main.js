@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class="description">${recipe.description}</p>
             
             <span class="rating" role="img" aria-label="Rating: ${recipe.rating} out of 5 stars">
-            ${'⭐'.repeat(recipe.rating)}${'☆'.repeat(5-recipe.rating)}
+                ${'⭐'.repeat(recipe.rating)}${'☆'.repeat(5-recipe.rating)}
             </span>
             <a href="#" class="view-recipe">View Recipe</a>
             `;
