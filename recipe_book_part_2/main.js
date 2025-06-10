@@ -29,6 +29,21 @@ function ratingTemplate(rating) {
     aria-label="Rating: ${rating} out of 5 stars"
     >`;
 
+}
+
+// our rating out of 5 so use a for loop here
+
+for (let i=1; i<=5; i++) {
+    //check to see if the current index of the loop is less than our rating
+    if(i <= rating) {
+        // if so then output a filled star
+        html += `<span aria-hidden="true" class="icon-star">⭐</span>`;
+    } else {
+        //empty star
+        html + `<span aria-hidden="true" class="icon-star-empty'>☆</span>`;
+    }
+}
 
 
-    
+
+
