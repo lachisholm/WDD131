@@ -15,3 +15,20 @@ function getRandomListEntry(list) {
 }
 
 
+//3 create template function
+function tagsTemplate(tags) {
+    //loop
+    return tags.map(tag => <li>${tag}</li>).join('');
+}
+
+function ratingTemplate(rating) {
+    //begin building an html string using the ratings html 
+    let html = `<span
+    class="rating"
+    role="img"
+    aria-label="Rating: ${rating} out of 5 stars"
+    >`;
+
+
+
+    
