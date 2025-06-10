@@ -44,6 +44,33 @@ for (let i=1; i<=5; i++) {
     }
 }
 
+// closing tag to string
+html += `</span>`;
+//return the html string
+return html;
+}
+
+function recipeTemplate(recipe) {
+    return `<figure class="recipe">
+        <img src="${recipe.image}: alt="image of ${recipe.name};/>
+        <figcaption>
+        <ul class="recipe_tags">
+        </ul>
+        <h2><a href="#">${recipe.tags}
+        </ul>
+        <h2><a href="#">$(recipe.name}</a></h2>
+        <p class="recipe_ratings">
+            ${ratingTemplate(recipe.rating)}
+        </p>
+        <p class="recipe_description">
+            ${recipe.description}
+        </p>
+    </figcaption>
+</figure>`;
+}
+
+
+
 
 
 
