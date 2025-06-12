@@ -33,7 +33,7 @@ const recipes = [
     },
     {
         name: "Classic Apple Crisp",
-        image: "https://images.unsplash.com/photo-1568471173955-2ca222b8d2ca?w=400&h=300",
+        image: "https://images.unsplash.com/photo-1621743478914-cc8a86d7e9b5?w=400&h=300",
         rating: 4,
         tags: ["Dessert", "Fruit", "Comfort Food"],
         description: "This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.",
@@ -73,7 +73,7 @@ const recipes = [
     },
     {
         name: "Beef Tacos",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300",
+        image: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=400&h=300",
         rating: 4,
         tags: ["Main Course", "Mexican", "Spicy", "Quick"],
         description: "Seasoned ground beef tacos with fresh toppings and warm tortillas.  Perfect for a quick weeknight dinner.",
