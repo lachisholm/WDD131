@@ -130,7 +130,7 @@ header p {
 
 .recipe img {
     width: 100%;
-    height: 250px;
+    height: 4/3;
     object-fit: contain; 
     display: block;
     background-color: #f8f9fa;
