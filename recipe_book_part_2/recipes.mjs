@@ -27,12 +27,12 @@ const recipes = [
         name: "Spicy Thai Green Curry",
         image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=400&h=300&fit=crop",
         rating: 5,
-        tags: ["Main course", "Thai", "spicy", "coconut"],
+        tags: ["Main course", "Thai", "Spicy", "Coconut"],
         description: "Aromatic and spicy green curry with coconut milk, vegetables, and your choice of protein.",
         ingredients: ["green curry paste", "coconut milk", "chicken", "eggplant", "bamboo shoots", "basil", "fish sauce", "sugar"]
     },
     {
-        name: "Classic apple crisp",
+        name: "Classic Apple Crisp",
         image: "https://images.unsplash.com/photo-1568471173955-2ca222b8d2ca?w=400&h=300&fit=crop",
         rating: 4,
         tags: ["Dessert", "Fruit", "Comfort Food"],
@@ -40,7 +40,7 @@ const recipes = [
         ingredients: ["apples", "oats", "flour", "brown sugar", "butter", "cinnamon", "nutmeg", "lemon juice"]
     },
     {
-        name: "Grilled salmon with Lemon",
+        name: "Grilled Salmon with Lemon",
         image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&h=300&fit=crop",
         rating: 5,
         tags: ["Main Course", "Seafood", "Healthy", "Grilled"],
@@ -92,7 +92,7 @@ const recipes = [
             image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
             rating: 4,
             tags: ["Main Course", "Asian", "Quick", "Healthy"],
-            description: "Quick and colorful chicken stir fry mixed vegetables in a svory sauce served over rice.",
+            description: "Quick and colorful chicken stir fry with mixed vegetables in a savory sauce served over rice.",
             ingredients: ["chicken breast", "bell peppers", "broccoli", "carrots", "soy sauce", "garlic", "ginger", "sesame oil"]
         }
     ];
