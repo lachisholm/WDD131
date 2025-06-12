@@ -53,7 +53,7 @@ const recipes = [
         rating: 5,
         tags: ["Main Course", "Italian", "Pizza", "Vegetarian"],
         description: "Classic Neapolitan pizza with fresh tomatoes, mozzarella, and basil on a crispy homemade crust.",
-        ingredients: ["pizza dough", "tomato sauce", "fresh mozzarella", "basil", "olive Oil", "garlic", "salt"]
+        ingredients: ["pizza dough", "tomato sauce", "fresh mozzarella", "basil", "olive oil", "garlic", "salt"]
     },
     {
         name: "Chocolate Lava Cake",
@@ -77,15 +77,15 @@ const recipes = [
         rating: 4,
         tags: ["Main Course", "Mexican", "Spicy", "Quick"],
         description: "Seasoned ground beef tacos with fresh toppings and warm tortillas.  Perfect for a quick weeknight dinner.",
-        ingredients: ["ground beef", "taco seasoning", "lettuce", "tomatos", "cheese", "sour cream", "onion"]
+        ingredients: ["ground beef", "taco seasoning", "lettuce", "tomatoes", "cheese", "sour cream", "onion"]
     },
     {
         name: "Blueberry Pancakes",
-        image: "https://imagesunsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
+        image: "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=300&fit=crop",
         rating: 4,
-        tags: ["Breakfast", "Fruit", "Sweet", "Fluffy"].
+        tags: ["Breakfast", "Fruit", "Sweet", "Fluffy"],
         description: "Fluffy pancakes bursting with fresh blueberries. Perfect for weekend breakfast or brunch.",
-        ingredients: {"flour", "sugar", "baking powder", "milk", "eggs", "butter", "blueberries", "vanilla", "salt"]
+        ingredients: ["flour", "sugar", "baking powder", "milk", "eggs", "butter", "blueberries", "vanilla", "salt"]
         },
         {
             name: "Chicken Stir Fry",
