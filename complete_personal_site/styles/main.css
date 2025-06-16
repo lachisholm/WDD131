@@ -59,3 +59,14 @@ footer {
 }
 
 
+/* creates a reusable button class for any a element and applies padding and background and rounded corners and a hover effect links for feel like real buttons for CTAs*/
+a.button {
+    display: inline block;
+    padding: 10 px 20 px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
