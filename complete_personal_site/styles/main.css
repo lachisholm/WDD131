@@ -17,3 +17,11 @@ body {
     color: #333;
 }
 
+/* Header - this is where I apply Flexbox to my header so that the title and nav menu appear side by side.  Adds space below the header for viual separation*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
