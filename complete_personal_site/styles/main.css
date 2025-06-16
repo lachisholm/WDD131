@@ -51,5 +51,11 @@ main section {
     margin-bottom: 25px;
 }
 
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #666;
+}
 
 
