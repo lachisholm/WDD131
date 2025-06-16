@@ -25,3 +25,14 @@ header {
     margin-bottom: 30px;
 }
 
+/* Remove default bullet points from the nav list and displays nav items like Home, Dashboard in a horizontal row using Flex box. Then adds 15px of space between the nave links*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+/*
+
