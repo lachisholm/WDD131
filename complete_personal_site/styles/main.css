@@ -46,5 +46,10 @@ nav a:hover {
 }
 
 
+/* adds space between each section- keeps the layout clean - readable but not tight*/
+main section {
+    margin-bottom: 25px;
+}
+
 
 
