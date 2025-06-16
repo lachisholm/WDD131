@@ -34,5 +34,17 @@ nav ul {
 }
 
 
-/*
+/*Remove the default underline on links and apply a blue color to the links and underline on hover for better user interaction */
+
+nav a {
+    text-decoration: none;
+    color:#0066cc;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
 
