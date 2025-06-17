@@ -180,6 +180,10 @@ button:disabled {
     color: #055160;
 }
 
+
+/* Category tag for creative tasks - soft red background with dark */
+
+
 .category {
     display: inline-block;
     padding: 2px 6px;
@@ -210,3 +214,4 @@ button:disabled {
     background-color: #f0e6fd;
     color: #4a007d;
 }
+
