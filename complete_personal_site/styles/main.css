@@ -169,3 +169,13 @@ button:disabled {
     margin-left: 10px;
 }
 
+.status-archived {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+
+.status-completed {
+    background-color: #cff4fc;
+    color: #055160;
+}
