@@ -179,3 +179,34 @@ button:disabled {
     background-color: #cff4fc;
     color: #055160;
 }
+
+.category {
+    display: inline-block;
+    padding: 2px 6px;
+    font-size: 0.75rem;
+    border-radius: 3px;
+    background-color: #eee;
+    color: #444;
+    margin-right: 6px;
+}
+
+
+.category-creative {
+    background-color: #fde2e2;
+    color: #a80000;
+}
+
+.category-technical {
+    background-color: #e2f0fd;
+    color: #004b91;
+}
+
+.category-admin {
+    background-color: #e2fde6;
+    color: #8a6d00;
+}
+
+.category-personal {
+    background-color: #f0e6fd;
+    color: #4a007d;
+}
