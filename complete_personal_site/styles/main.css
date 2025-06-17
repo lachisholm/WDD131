@@ -159,3 +159,13 @@ button:disabled {
     color: #666666;
     cursor: not allowed;
 }
+
+.status {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 0.85rem;
+    border-radius: 3px;
+    color: #333;
+    margin-left: 10px;
+}
+
