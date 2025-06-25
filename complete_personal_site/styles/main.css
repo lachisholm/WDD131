@@ -247,16 +247,3 @@ button:disabled {
 }
 
 
-@media (max-width: 600px) {
-    .hamburger {
-        display: block;
-    }
-
-    .main-nav {
-        display: none;
-    }
-
-    .main-nav.open {
-        display: block;
-    }
-}
