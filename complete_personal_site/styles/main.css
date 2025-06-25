@@ -215,3 +215,10 @@ button:disabled {
     color: #4a007d;
 }
 
+/* Header nav container with soft contrasting background and padding*/
+.nav-container {
+    background-color: #e3e3e3;
+    padding: 15px 20 px;
+    border-radius: 6px;
+}
+
