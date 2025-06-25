@@ -40,7 +40,7 @@ nav a {
     text-decoration: none;
     color:#004080;
     font-weight: 500;
-    
+
 }
 
 nav a:hover {
@@ -219,6 +219,7 @@ button:disabled {
 
 /* Header nav container with soft contrasting background and padding*/
 .nav-container {
+    margin-right: 20px;
     background-color: #e3e3e3;
     padding: 15px 20 px;
     border-radius: 6px;
