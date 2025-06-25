@@ -259,14 +259,4 @@ button:disabled {
     .main-nav.open {
         display: block;
     }
-    
-
-
-
-nav.open {
-    display: block;
 }
-}
-
-
-
