@@ -223,5 +223,9 @@ button:disabled {
     background-color: #e3e3e3;
     padding: 15px 20 px;
     border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
