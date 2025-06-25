@@ -36,8 +36,33 @@ header {
     margin-bottom: 30px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px regba(0,0,0,0.1);
-    
+
 }
+
+
+.nav-container {
+    dispaly: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+
+.logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+    text-shadown: 2px 2px 4px rgba(0,0,0,0.3);
+    text-decoration: none;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 30 px;
+    align-items: center;
+}
+
 
 /* Remove default bullet points from the nav list and displays nav items like Home, Dashboard in a horizontal row using Flex box. Then adds 15px of space between the nave links*/
 
