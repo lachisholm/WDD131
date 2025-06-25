@@ -245,3 +245,15 @@ button:disabled {
     margin-left: auto;
 }
 
+
+@media (max-width: 600px) {
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
+
+
