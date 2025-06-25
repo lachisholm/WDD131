@@ -254,10 +254,14 @@ button:disabled {
     nav {
         display: none;
     }
-}
+
+
+
+
 
 nav.open {
     display: block;
+}
 }
 
 
