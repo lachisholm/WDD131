@@ -236,7 +236,7 @@ button:disabled {
     font-size: 1.5rem;
     cursor: pointer;
     color: #004080;
-    display: none; 
+    display: block; 
 }
 
 .nav-right {
