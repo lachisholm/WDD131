@@ -238,3 +238,10 @@ button:disabled {
     display: none; 
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+}
+
