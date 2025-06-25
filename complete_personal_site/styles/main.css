@@ -28,10 +28,15 @@ body {
 
 /* Header - this is where I apply Flexbox to my header so that the title and nav menu appear side by side.  Adds space below the header for viual separation*/
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
     margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px regba(0,0,0,0.1);
+    
 }
 
 /* Remove default bullet points from the nav list and displays nav items like Home, Dashboard in a horizontal row using Flex box. Then adds 15px of space between the nave links*/
