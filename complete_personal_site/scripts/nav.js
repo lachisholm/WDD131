@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const nav = document.querySelector(".main-nav");
 
     if (hamburger && nav) {
-        hamburger.addEventListener("Click", () => {
+        hamburger.addEventListener("click", () => {
             nav.classList.toggle("open");
 });
     }
