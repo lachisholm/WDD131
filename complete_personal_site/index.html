@@ -4,31 +4,55 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Kavia</title>
+        <title>Task Manager</title>
         <link rel="stylesheet" href="styles/main.css"/>
     </head>
     <body>
-        <header class="nav-container">
-            <button class="hamburger" aria-label="Menu">&#9776;</button>
-            <div class="nav-right">
-            <h1>Kavia</h1>
-            <nav class="main-nav">
-            <nav>
-                <ul>
-                    <li><a href="index.html" aria-current="page">Home</a></li>
-                    <li><a href="dashboard.html">Dashboard</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+        <header>
+            <div class="container">
+                <h1 class="logo">Kavia</h1>
+                <nav class="nav-links">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="dashboard.html" class="nav-link">Dashboard</a>
+                </nav>
+                <button class="moblie-menu-toggle" id="mobileMenuToggle">☰</button>
             </div>
         </header>
 
-        <main>
-            <section>
-                <h2> Welcome to Kavia</h3>
-                    <p>This site helps you manage and organize your personal tasks and goals.</p>
+        <main class="main-content">
+            <section class="welcome-section">
+                <h1> Welcome to Kavia</h1>
+                    <p> Transform your productivity with out intuitive task management system.  Organize your daily goals, track progress, and achieve more with less stress.</p>
+                    <p> Get started by adding your first task, or explore the dashboard to see your productivity insights. </p>
+                    <a href="dashboard.html" class="cta-button">Go to Dashboard</a>
             </section>
 
-            <section>
-                <a href="dashboard.html">Go to Task Dashboard</a>
+            <section class="task-section">
+                <h2>Quick Add Task</h2>
+                <div class="task-input-container">
+                    <input type="text" ikd="taskInput" class="task-input" placeholder="What needs to be done?"  maxlength="100">
+                    <select id="prioritySelect" class="priority-select">
+                        <option value="low">Low Priority</option>
+                        <option value="medium" selected>Medium Priority</option>
+                        <option value="high">High Priority</option>
+                    </select>
+                    <button id="addTaskBtn" class="add-btn">Add Task</button>
+                </div>
+
+                <div class="task filters">
+                    <button class="filter-btn active" data-filter="all">All Tasks</button>
+                    <button class="filter-btn" data-filter="pending">pending</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+
+                <div id="taskList" class="task-list">
+                    <div class="empty-state">
+                        <div class="empty-icon">📝</div>
+                        <h3>No tasks yet</h3>
+                        <p>Add your first task to get started!</p>
+                    </div>
+                </div>
             </section>
         </main>
 
