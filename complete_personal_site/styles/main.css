@@ -1,7 +1,3 @@
-body {
-    background-color: bright-yellow !important;
-    border: 10px solid red !important;
-}
 
 
 
@@ -18,7 +14,7 @@ body {
 
 body {
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.6rem;
     padding: 20px;
     max-width: 960px;
     margin: 0 auto;
@@ -73,7 +69,7 @@ footer {
 /* creates a reusable button class for any a element and applies padding and background and rounded corners and a hover effect links for feel like real buttons for CTAs*/
 a.button {
     display: inline-block;
-    padding: 10 px 20 px;
+    padding: 10px 20px;
     background-color: #0066cc;
     color: white;
     text-decoration: none;
@@ -230,7 +226,7 @@ button:disabled {
 .nav-container {
     margin-right: 20px;
     background-color: #e3e3e3;
-    padding: 15px 20 px;
+    padding: 15px 20px;
     border-radius: 6px;
     display: flex;
     justify-content: space-between;
@@ -281,5 +277,5 @@ nav.open {
     background-color: red !important;
     display: block !important;
     width: 50px !important;
-    height: 50 px !important;
+    height: 50px !important;
 }
