@@ -1,2 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Kavia Task manager</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="nav-container">
+                <h1 class="logo">Kavia</h1>
+                <nav class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="dashboard.html" class="nav-link active">Dashboard</a>
+                </nav>
+                <button class="moblie-menu-toggle' id="mobileMenuToggle">☰</button>
+            </div>
+        </header>
+
+        <main class="dashboard-main">
+            <section class="dashboard-main">
+                <h1>Productivity Dashboard</h1>
+                <p>Track your progress and stay motivated</p>
+            </section>
+
+            <section class="stats-section">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">Put stat icon here</div>
+                        <div class="stat-number"> id="totalTasks">0</div>
+                        <div class="stat-label">Total Tasks</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">Put stat icon here</div>
+                        <div class="stat-number"> id="pendingTasks">0</div>
+                        <div class="stat-label">Pending</div>
+                    <div class="stat-card">
+                        <div class="stat-icon"> Put stat icon here</div>
+                        <div class="stat-number"> id="completedTasks">0</div>
+                        <div class="stat-label">Completed</div>
+                    <div class="stat-card">
+                        <div class="stat-icon"> Put state icon here</div>
+                        <div class="stat-number" id="completionRate">0%</div>
+                        <div class="stat-label">Completion Rate</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="dashboard-content">
+                <div class="priority-breakdown">
+                    <h2>Priority Breakdown</h2>
+                    <div class="priority-stats">
+                        <div class="priority-stats">
+                            <div class="priority-stat high">
+                                <span class="priority-label">High Priority</span>
+                                <span class="priority-count" id="highPriorityCount">
+                                </div>
+                                <div class="priority-stat medium">
+                                    <span class="priority-stat medium">
+                                        <span class="priority-stat mediumPriorityCount">0</span>
+                                    </div>
+                                    <div class="prioity-stat low">
+                                        <span class="priority-label">Low Priority</span>
+                                        <span class="priority-count" id="lowPriorityCount">0</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="recent-activity">
+                                <h2>Task Management</h2>
+                                <div class="management-actions">
+                                    <button id="clearcompletedBtn" class="action-btn danger">Clear Completed Tasks</button>
+                                    <button id="exportTasksBtn" class="action-btn primary">Export Taks</button>
+                                    input type="file" id="importTasksInput" accept=".json" style="display: none;">
+                                    button id="importTasksBtn" class="action-btn secondary">Import Tasks</button>
+                                </div>
+                            </section>
+
+                            <section class="productivity-tips">
+                                <h2>Productivity Tips</h2>
+                                <div class="tip-card">
+                                    <h3> Focus on Priorities</h3>
+                                    <p>Start with high priority tasks to maximize impact and reduce stress.</p>
+                                </div>
+                                <div class="tip-card">
+                                    <h3> Regular Reviews</h3>
+                                    <p>Review and update your task list regularly to stay on track.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+
+                    <footer class="footer">
+                        <p>&copy; 2025 kavia. Built for productivity enthusiasts.</p>
+                    </footer>
+                </div>
 
 
