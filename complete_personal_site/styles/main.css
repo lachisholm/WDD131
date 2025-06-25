@@ -229,3 +229,12 @@ button:disabled {
     gap: 20px;
 }
 
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #004080;
+    display: none; 
+}
+
