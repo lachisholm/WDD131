@@ -63,6 +63,37 @@ header {
     align-items: center;
 }
 
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transistion: all 0.3s ease;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255, 255, 255,0.2);
+}
+
+.nav-link:hover, .nav-link.active{
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0, 0.2);
+}
+
+
+.moblie-menu-toggle {
+    display: none;
+    background: rgba(255,255,255, 0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255, 0.2);
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
 
 /* Remove default bullet points from the nav list and displays nav items like Home, Dashboard in a horizontal row using Flex box. Then adds 15px of space between the nave links*/
 
