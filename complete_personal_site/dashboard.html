@@ -15,7 +15,7 @@
                     <a href="index.html" class="nav-link">Home</a>
                     <a href="dashboard.html" class="nav-link active">Dashboard</a>
                 </nav>
-                <button class="moblie-menu-toggle' id="mobileMenuToggle">☰</button>
+                <button class="moblie-menu-toggle" id="mobileMenuToggle">☰</button>
             </div>
         </header>
 
@@ -29,17 +29,19 @@
                 <div class="stats-grid">
                     <div class="stat-card">
                         <div class="stat-icon">Put stat icon here</div>
-                        <div class="stat-number"> id="totalTasks">0</div>
+                        <div class="stat-number" id="totalTasks">0</div>
+                    </div>
                         <div class="stat-label">Total Tasks</div>
                     </div>
                     <div class="stat-card">
                         <div class="stat-icon">Put stat icon here</div>
-                        <div class="stat-number"> id="pendingTasks">0</div>
+                        <div class="stat-number" id="pendingTasks">0</div>
                         <div class="stat-label">Pending</div>
                     <div class="stat-card">
                         <div class="stat-icon"> Put stat icon here</div>
-                        <div class="stat-number"> id="completedTasks">0</div>
+                        <div class="stat-number" id="completedTasks">0</div>
                         <div class="stat-label">Completed</div>
+                    </div>
                     <div class="stat-card">
                         <div class="stat-icon"> Put state icon here</div>
                         <div class="stat-number" id="completionRate">0%</div>
@@ -55,16 +57,16 @@
                         <div class="priority-stats">
                             <div class="priority-stat high">
                                 <span class="priority-label">High Priority</span>
-                                <span class="priority-count" id="highPriorityCount">
+                                <span class="priority-count" id="highPriorityCount">0</span>
                                 </div>
                                 <div class="priority-stat medium">
-                                    <span class="priority-stat medium">
-                                        <span class="priority-stat mediumPriorityCount">0</span>
-                                    </div>
-                                    <div class="prioity-stat low">
+                                    <span class="priority-stat medium">Medium Priority</span>
+                                    <span class="priority-stat" id= "mediumPriorityCount">0</span>
+                                </div>
+                                    <div class="priority-stat low">
                                         <span class="priority-label">Low Priority</span>
                                         <span class="priority-count" id="lowPriorityCount">0</span>
-                                    </div>
+                                </div>
                                 </div>
                             </div>
 

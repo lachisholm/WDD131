@@ -11,18 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * Navigation and UI functionality for Kavia Task Manager
  */
