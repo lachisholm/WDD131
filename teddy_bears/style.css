@@ -1,0 +1,42 @@
+/* Reset default margin, padding, and set box-sizing for all elements*/
+* {
+    margin: 0; /* Remove default margin*/
+    padding: 0; /* Remove default padding*/
+    box-sizing: border-box; /* Include padding and border in element's total size*/
+}
+
+/*Body base styles*/
+body {
+    font-family: arial, Helvetica, sans-serif; /* Set fallback font stack */
+    line-height: 1.6; /* Comfortable line spacing */
+    background-color: #fdf6f0; /* Soft light background color*/
+}
+
+/* Header bar styles */
+header {
+    background-color: #f8d5c2; /* Soft pastel header background*/
+    padding: 10px 20px; /* Add space inside the header */
+}
+
+/* Container for nav bar elements*/
+.navbar {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /*Vertically center items */
+    justify-content: space-between; /*Space items aprt */
+}
+
+/* Logo container styles */
+.logo {
+    display: flex; /* Use flexbox for Logo area */
+    align-items: center; /* Vertically align logo image and text */
+}
+
+/* Logo image inside the Logo div */
+.logo img {
+    width: 50px; /* Fixed width for the Logo image */
+    height: auto; /* maintain aspect ration*/
+    margin-right: 10px; /* Space between image and text*/
+}
+
+
+/*
