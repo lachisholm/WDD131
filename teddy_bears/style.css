@@ -39,4 +39,63 @@ header {
 }
 
 
-/*
+/* Logo text next to the image */
+.logo span {
+    font-size: 1.5rem; /* Larger text size for brand name */
+    font-weight: bold; /* Make brand name bold*/
+    color: #333333; /* Text color matches site color */
+}
+
+/* Unordered list containing nav Links */
+.nav-links {
+    list-style: none; /* Remove default bullet points */
+    display: flex; /* Display links in a row */
+}
+
+
+
+/* Each list item inside nav-links*/
+.nav-links li {
+    margin-left: 20px; /* Space between each nav link*/
+}
+
+/* Anchor tags inside nav links */
+.nav-links li a {
+    text-decoration: none; /* Remove underline from links*/
+    color: #333333; /* Link color same as text */
+    font-weight: bold; /* Make links bold*/
+    
+
+} 
+    .nav-links li a:hover {
+        color: #b35f5f; /* Change color on hover */
+}
+
+
+
+/* Hamburger icon container*/
+.hamburger {
+    display: none; /* Hide hamburger on desktop*/
+    flex-direction: column; /* Stack hamburger lines vertically */
+    cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Each line of the hamburger icon */
+.hamburger span {
+    height: 3px; /*Thickness of each line*/
+    width: 25px; /* Width of each line*/
+    background: #333333; /*Color of hamburger lines*/
+    margin: 4px 0; /* Space between lines */
+    transition: all 0.3s ease; /* Smooth transition for animations */ 
+
+}
+
+
+/* hero section image styles */
+.hero img {
+    width: 100; /* Image fills full width */
+    height:auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */
+    margin-top: 20 px; /* Space above hero image */
+}
+
