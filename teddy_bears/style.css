@@ -141,8 +141,13 @@ header {
 }
 
 /*hamburger moblie*/
- {
+ .hamburger{
 display: flex; /*Display hamburger */
 }
 
 
+/* Class to activate nav links when hamburger is clicked */
+.nav-links.active {
+    display: flex; /* Show nav links when active*/ 
+}
+}
