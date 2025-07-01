@@ -99,3 +99,39 @@ header {
     margin-top: 20 px; /* Space above hero image */
 }
 
+
+.gallery {
+    display: grid; /* Use grid layout for images */
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /* Responsive columns */
+    gap: 20px; /* Space between images*/
+    padding: 20px; /* Space around gallery section */
+}
+
+/* Each gallery image*/
+.gallery img {
+    width: 100%; /* Image fills grid cell */
+    height: auto; /* Maintain aspect ratio*/
+    border-radius: 8px; /* rounded corners for a soft look */
+    transition: transform 0.3s ease; /* Smooth scale on hober */
+}
+
+
+/* Hover effect for gallery images */
+.gallery img:hover {
+    transform: scale(1.05); /* Slightly enlarge image on hover*/
+}
+
+/* Media query for screens 768px wide or smaller */
+@media (max-width: 768px) {
+    /* Hide nav links and stack them vertically when shown */
+    .nav-links {
+        display: none; /* Hidden*/
+        flex-direction: column; /*stack links vertically */
+        width: 100% /* Full Width */
+        background-color: #f8d5c2; /*Same as header background*/
+        position: absolute; /* Position absolutely below nav bar */
+        top: 60px; /* place below header */
+        left: 0; /* Align to left edge */
+    }
+
+  
