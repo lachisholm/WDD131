@@ -127,11 +127,22 @@ header {
     .nav-links {
         display: none; /* Hidden*/
         flex-direction: column; /*stack links vertically */
-        width: 100% /* Full Width */
+        width: 100%; /* Full Width */
         background-color: #f8d5c2; /*Same as header background*/
         position: absolute; /* Position absolutely below nav bar */
         top: 60px; /* place below header */
         left: 0; /* Align to left edge */
     }
 
-  
+/* Nav link list items in moblie view */
+.nav-links li {
+    margin: 10px 0; /* Space between stacked links*/
+    text-align: center; /* Center the tex*/
+}
+
+/*hamburger moblie*/
+ {
+display: flex; /*Display hamburger */
+}
+
+
