@@ -57,14 +57,26 @@ galleryImages.forEach(function(image) {
         imageClickCount++;
 
         // Log the click count
-        console.log('Image clicked! Total clicks: ' + imageClickcount);
+        console.log('Image clicked! Total clicks: ' + imageClickCount);
 
         //Add a visual effect -temporary border
-        image.style.border = 'px solid #8B4513':
+        image.style.border = '2px solid #8B4513';
 
             // Remove the border after 1 second
             setTimeout(function() {
                 image.style.border = 'none';
             }, 10000);
+        });
+    });
+
+    // Nav link toggle loop
+    // Select all nav link anchor tags inside nav-links
+    const navLinkItems = document.querySelectorAll('.nav-links li a');
+
+    //For each link, add a click that closes the nav
+    navLinkItems.forEach(link => {
+        link.addEventListener('click',() => {
+            navLinks.classList.remove('active');
+            console.log('Menu closed on link click');
         });
     });
