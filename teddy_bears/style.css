@@ -29,6 +29,7 @@ header {
 .logo {
     display: flex; /* Use flexbox for Logo area */
     align-items: center; /* Vertically align logo image and text */
+    margin: 0 20px; /* add some side margin*/
 }
 
 /* Logo image inside the Logo div */
@@ -48,6 +49,10 @@ header {
 
 /* Unordered list containing nav Links */
 .nav-links {
+
+    display: flex;
+    flex: 1; /* take all remaining space*/
+    justify-content: space-around; /*spread items evenly*/
     list-style: none; /* Remove default bullet points */
     display: flex; /* Display links in a row */
 }
@@ -78,6 +83,7 @@ header {
 /* Hamburger icon container*/
 .hamburger {
     display: none; /* Hide hamburger on desktop*/
+    margin-right: 20px; /* space after hamburger*/
     flex-direction: column; /* Stack hamburger lines vertically */
     cursor: pointer; /* Show pointer cursor on hover */
 }
