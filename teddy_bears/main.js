@@ -38,7 +38,7 @@ teddyBearNames.forEach(function(name) {
     console.log('Teddy Bear Name:', name);
 });
 
-if (teddyBear.instock) {
+if (teddyBear.inStock) {
     console.log(teddyBear.name + 'is available for purchase.');
 }else{
     console.log(teddyBear.name + 'is out of stock.');
