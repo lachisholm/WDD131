@@ -224,3 +224,16 @@ display: flex; /*Display hamburger */
 .back-link a:hover {
     color: 654321; /* Darker brown on hover*/
 }
+
+
+/* Site footer styles */
+.site-footer {
+    background-color: f8d5c2; /* same pastel as header for brand consistency */
+    text-align: center;  /* center the footer text*/
+    padding: 20px 0;   /* top and bottom padding */
+    color: #333333;   /* dark text for contrast */
+    font-size: 0.9rem;  /* slightly smaller text */
+    margin-top: 40px;   /* space above footer if needed */
+}
+
+
