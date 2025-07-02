@@ -67,7 +67,9 @@ header {
     
 
 } 
-    .nav-links li a:hover {
+
+
+.nav-links li a:hover {
         color: #b35f5f; /* Change color on hover */
 }
 
@@ -96,7 +98,7 @@ header {
     width: 100; /* Image fills full width */
     height:auto; /* Maintain aspect ratio */
     display: block; /* Remove inline spacing */
-    margin-top: 20 px; /* Space above hero image */
+    margin-top: 20px; /* Space above hero image */
 }
 
 
