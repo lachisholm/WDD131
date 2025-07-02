@@ -44,3 +44,27 @@ if (teddyBear.inStock) {
     console.log(teddyBear.name + 'is out of stock.');
 }
 
+// Gallery image click counter -Second dynamic element
+let imageClickCount = 0;
+
+// Select all gallery images
+const galleryImages = document.querySelectorAll('.gallery img');
+
+// Add click event listener to each gallery image
+galleryImages.forEach(function(image) {
+    image.addEventListener('click', function(){
+        //Increment the click counter
+        imageClickCount++;
+
+        // Log the click count
+        console.log('Image clicked! Total clicks: ' + imageClickcount);
+
+        //Add a visual effect -temporary border
+        image.style.border = 'px solid #8B4513':
+
+            // Remove the border after 1 second
+            setTimeout(function() {
+                image.style.border = 'none';
+            }, 10000);
+        });
+    });
