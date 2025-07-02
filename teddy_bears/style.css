@@ -179,3 +179,42 @@ display: flex; /*Display hamburger */
     margin-bottom: 15px; /*Space between my paragraphs*/
     line-height: 1.8; /* Comfortable line spacing*/
 }
+
+
+/* About page content styles */
+.about-content {
+    padding: 40px 20 px; /* Space around the content */
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the content */
+    text-align: center; /* Center align text */
+}
+
+
+/* About page heading */
+.about-content h1{
+    font-size: 2.5rem; /* Large heading size */
+    color: #8B4513; /* Brown color matching site theme*/
+    margin-bottom: 30px; /* Space below heading */
+    font-weight: bold; /* Make heading bold*/
+}
+
+/* About page paragraphs */
+.about-content p {
+    font-size: 1/1rem; /* Slightly larger text */
+    color: 33333; /* Text color matching site theme */
+    margin-bottom: 20px; /* space between paragraphs */
+    line-height: 1.8; /* Comfortable line spacing */
+    text-align: left; /*Left align paragraph text */
+}
+
+/* Back link styling*/
+.back-link a {
+    color: 8B4513; /* Brown color*/
+    text-decoration: none; /* Remove underline*/
+    font-weight: bold; /*Make link bold*/
+    font-size: 1.1rem; /*Slightly larger text */
+}
+
+.back-link a:hover {
+    color: 654321; /* Darker brown on hover*/
+}
