@@ -69,3 +69,12 @@ header {
     padding: 2rem 0;
 }
 
+footer {
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+
