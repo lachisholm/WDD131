@@ -60,3 +60,12 @@ table, th, td {
     text-align: center;
     padding: 0.5rem;
 }
+
+
+header {
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
