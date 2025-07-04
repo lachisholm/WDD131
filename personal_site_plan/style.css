@@ -21,7 +21,7 @@ h1, h2, h3 {
     margin: 0.5rem 0;
 }
 
-header h1, header h2, header {
+header h1, header h2, header h3 {
     
     color: white !important; 
     font-family: Georgia, serif;
