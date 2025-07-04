@@ -1,6 +1,6 @@
 :root{
     --primary-bg: #FDF6F0; /* Light cream pastel background */
-    --secondary-bg: F8D5C2; /* Soft peach pastel header/nav */
+    --secondary-bg: #F8D5C2; /* Soft peach pastel header/nav */
     --text-color: #333333; /*Neutral dark gray for readability */
     --accent-color: #004C7F: /* Navy blue for accents and links */
 }
