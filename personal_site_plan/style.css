@@ -13,11 +13,7 @@ header {
     padding: 2rem;
 }
 
-header h1, header h2, header h{
-    color: white;
-    font-family: Georgia, serif;
-    text-transform: uppercase;
-}
+
 
 h1, h2, h3 {
     color: var(--accent-color);
@@ -25,7 +21,11 @@ h1, h2, h3 {
     margin: 0.5rem 0;
 }
 
-
+header h1, header h2, header h{
+    color: white;
+    font-family: Georgia, serif;
+    text-transform: uppercase;
+}
 
 Body {
     background-color: var(--primary-bg);
