@@ -26,11 +26,15 @@ h3 {
  }
 
 
-header h1, header h2, header h3 {
+header h1, header h2 {
     
     color: white !important; 
     font-family: Georgia, serif;
     text-transform: uppercase;
+}
+
+header h3 {
+    color: #036bb0;
 }
 
 Body {
