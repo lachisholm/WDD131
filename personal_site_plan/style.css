@@ -1,0 +1,40 @@
+:root{
+    --primary-bg: #FDF6F0; /* Light cream pastel background */
+    --secondary-bg: F8D5C2; /* Soft peach pastel header/nav */
+    --text-color: #333333; /*Neutral dark gray for readability */
+    --accent-color: #004C7F: /* Navy blue for accents and links */
+}
+
+npdu {
+    background-color: var(--primary-bg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+    font-family: 'Quicksand', Arial, sans-serif;
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+}
+
