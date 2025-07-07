@@ -3,6 +3,17 @@
     --secondary-bg: #F8D5C2; /* Soft peach pastel header/nav */
     --text-color: #333333; /*Neutral dark gray for readability */
     --accent-color: #004C7F; /* Navy blue for accents and links */
+
+    --beige: #F5E1DA; /* Soft beige */
+    --yellow: #FFF380; /* Pastel yellow highlight*/
+    --mint: #DFF5E1;   /*Mint*/
+    --powder-blue: #CDE7F0; /*Powder blue*/
+
+    --lavender: #E8DFF5;  /*Soft Lavendar*/
+    --pink: #F7D6E0;  /* Pastel Pink */
+    --coral: #FBC4AB;  /*Light coral */
+    --sage: #D4E4D3;   /* Soft sage green*/
+
 }
 
 
@@ -90,6 +101,21 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+}
+
+
+.section-lavendar {
+    background-color: var(--pink);
+    color: var(--text-color);
+}
+
+.highlight-clock {
+    background-color: var(--coral);
+}
+
+
+.footer {
+    background-color: var(--sage);
 }
 
 
