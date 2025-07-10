@@ -175,14 +175,15 @@ display: flex; /*Display hamburger */
 
 .welcome-text {
     text-align: left;    /* Left align all text inside this box */
-}
-
-.welcome-text {
-    
     margin: 0 0 15px 0;
 
 }
 
+.welcome img {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
 
 /*Welcome section heading*/
 .welcome h1 {
