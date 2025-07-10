@@ -248,15 +248,7 @@ display: flex; /*Display hamburger */
 }
 
 
-/* Site footer styles */
-.site-footer {
-    background-color: f8d5c2; /* same pastel as header for brand consistency */
-    text-align: center;  /* center the footer text*/
-    padding: 20px 0;   /* top and bottom padding */
-    color: #333333;   /* dark text for contrast */
-    font-size: 0.9rem;  /* slightly smaller text */
-    margin-top: 40px;   /* space above footer if needed */
-}
+
 
 /* LOGO CONTAINER*/
 
@@ -281,3 +273,62 @@ display: flex; /*Display hamburger */
 }
 
 
+/* Site footer styles */
+.site-footer {
+    background-color: f8d5c2; /* same pastel as header for brand consistency */
+    text-align: center;  /* center the footer text*/
+    padding: 20px 0;   /* top and bottom padding */
+    color: #333333;   /* dark text for contrast */
+    font-size: 0.9rem;  /* slightly smaller text */
+    margin-top: 40px;   /* space above footer if needed */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.footer-section h3 {
+    color: #8B4513;
+    margin-bottom: 15px;
+}
+
+
+.footer-section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sections ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    text-align: center;
+}
