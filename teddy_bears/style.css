@@ -236,4 +236,26 @@ display: flex; /*Display hamburger */
     margin-top: 40px;   /* space above footer if needed */
 }
 
+/* LOGO CONTAINER*/
+
+.logo {
+    display: flex; /* Align image and text side by side */
+    align-items: center; /* Vertically center them*/
+    gap: 10px;  /* Space between image and text */
+}
+
+/* LOGO IMAGE */
+.logo img {
+    width: 60px;   /*Adjust to fit your design */
+    height: auto;  /* Keep aspect ratio*/
+}
+
+
+/* LOGO TEXT */
+.logo span {
+    font-size: 1.5rem;   /* Adjust text size */
+    font-weight: bold;   /* Make it stand out*/
+    color: #333;    /* Choose your brand color */
+}
+
 
