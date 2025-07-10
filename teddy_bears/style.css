@@ -345,7 +345,7 @@ display: flex; /*Display hamburger */
 
 
 .about-content img {
-    width: 250px; /* Adjust as needed: try 200-300px for nice scale */
+    width: 100px; /* Adjust as needed: try 200-300px for nice scale */
     height: auto;  /* Keep aspect ration*/
     display: block; /* Remove inline gaps */
     margin: 20px auto; /*Center image horizontally with top/bottom space */
