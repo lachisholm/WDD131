@@ -125,6 +125,10 @@ header {
     transition: transform 0.3s ease; /* Smooth scale on hober */
 }
 
+.gallery img:first-child {
+    margin-top: 40px; 
+}
+
 
 /* Hover effect for gallery images */
 .gallery img:hover {
