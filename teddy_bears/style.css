@@ -101,10 +101,11 @@ header {
 
 /* hero section image styles */
 .hero img {
-    width: 100%; /* Image fills full width */
+    width: 150px; /* Image fills full width */
     height:auto; /* Maintain aspect ratio */
+    float: right;
     display: block; /* Remove inline spacing */
-    margin-top: 20px; /* Space above hero image */
+    margin-top: 0 0 10px 20px; /* Space above hero image */
 }
 
 
