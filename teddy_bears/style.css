@@ -347,8 +347,8 @@ display: flex; /*Display hamburger */
 .about-content img {
     width: 250px; /* Adjust as needed: try 200-300px for nice scale */
     height: auto;  /* Keep aspect ration*/
-    display: block: /* Remove inline gaps */
-    margin: 20px auto: /*Center image horizontally with top/bottom space */
+    display: block; /* Remove inline gaps */
+    margin: 20px auto; /*Center image horizontally with top/bottom space */
     border-radius: 8 px; /* Optional: gives soft rounded corners */
 }
 
