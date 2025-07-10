@@ -167,7 +167,7 @@ display: flex; /*Display hamburger */
     align-items: center; /* Vertically center*/
     gap: 20px;            /*Space between image and text */
     padding: 40px 20px; /* Space around the welcome section */
-    max-width: 800px; /* Limit width for better readability */
+    max-width: 1200px; /* Limit width for better readability */
     margin: 0 auto; /* Center the section horizontally */
 }
 
