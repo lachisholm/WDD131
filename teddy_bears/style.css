@@ -299,8 +299,10 @@ display: flex; /*Display hamburger */
 
 
 .footer-section ul{
-    list-style: none;
-    padding: 0;
+    display: flex;    /* change from block to flex*/
+    gap: 20px;    /*space between links*/
+    list-style: none;  /*remove bullet points*/
+    padding: 0;         /*remove default margin*/
 }
 
 .footer-sections ul li {
@@ -310,6 +312,10 @@ display: flex; /*Display hamburger */
 .footer-section ul li a {
     color: #333;
     text-decoration: none;
+}
+
+.footer-section li a:hover {
+    color: #8B4513;
 }
 
 .social-icons {
