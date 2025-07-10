@@ -113,6 +113,8 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /* Responsive columns */
     gap: 20px; /* Space between images*/
     padding: 20px; /* Space around gallery section */
+    max-width: 1200px; /* Space around gallery section */
+    margin: 0 auto; /* Center gallery in page */
 }
 
 /* Each gallery image*/
@@ -173,6 +175,12 @@ display: flex; /*Display hamburger */
 
 .welcome-text {
     text-align: left;    /* Left align all text inside this box */
+}
+
+.welcome-text {
+    
+    margin: 0 0 15px 0;
+
 }
 
 
