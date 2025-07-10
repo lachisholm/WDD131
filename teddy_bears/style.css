@@ -167,10 +167,14 @@ display: flex; /*Display hamburger */
     align-items: center; /* Vertically center*/
     gap: 20px;            /*Space between image and text */
     padding: 40px 20px; /* Space around the welcome section */
-    text-align: center; /*Vertically center them(/
     max-width: 800px; /* Limit width for better readability */
     margin: 0 auto; /* Center the section horizontally */
 }
+
+.welcome-text {
+    text-align: left;    /* Left align all text inside this box */
+}
+
 
 /*Welcome section heading*/
 .welcome h1 {
