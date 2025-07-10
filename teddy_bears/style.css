@@ -186,7 +186,7 @@ display: flex; /*Display hamburger */
 }
 
 .welcome img {
-    width: 300px;
+    width: 150px;
     height: auto;
     flex-shrink: 0;
 }
