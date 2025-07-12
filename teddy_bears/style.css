@@ -213,6 +213,70 @@ header {
 
 
 
+
+
+/**************************************************************OUTSIDE MEDIA CONTACT FORM***********************************************/
+.contact-form {
+    
+    flex-direction: column;
+    display:flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.contact-form label {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333
+}
+
+
+.contact-form input, .contact-form textarea {
+
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    width:100%;
+    box-sizing:border-box;
+}
+
+.contact-form button{
+    background-color: #8B4513;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%
+}
+
+
+.contact-form button:hover{
+    background-color: #A0522D;
+}
+
+
+/***************************************************************************************************************************************/
+
+
+
+
+
+
+
+
 /**************************************************************MEDIA QUERY BELOW******************************************************/
 /* Media query for screens 768px wide or smaller */
 @media (max-width: 768px) {
@@ -250,36 +314,10 @@ display: flex; /*Display hamburger */
 
 
 
-.contact-form {
-    
-    flex-direction: column;
-    display:flex;
-    gap: 15px;
-    margin-top: 20px;
-}
 
 
-.contact-form input, .contact-form textarea {
 
-    padding: 10px;
-    font-size: 1 rem;
-    border: 1 px solid #CCC;
-    border-radius: 4px;
-}
 
-.contact-form button{
-    background-color: #8B4513;
-    color: white;
-    padding: 12px;
-    font-size: 1rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-.contact-form button:hover{
-    background-color: #A0522D;
-}
 
 
 
