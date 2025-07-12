@@ -5,6 +5,17 @@
     box-sizing: border-box; /* Include padding and border in element's total size*/
 }
 
+
+.about-content img {
+    width: 25px; /* Adjust as needed: try 200-300px for nice scale */
+    height: auto;  /* Keep aspect ration*/
+    display: block; /* Remove inline gaps */
+    margin: 20px auto; /*Center image horizontally with top/bottom space */
+    border-radius: 8 px; /* Optional: gives soft rounded corners */
+}
+
+
+/**************************************************BODY CSS BELOW****************************************************/
 /*Body base styles*/
 body {
     font-family: arial, Helvetica, sans-serif; /* Set fallback font stack */
@@ -12,39 +23,35 @@ body {
     background-color: #fdf6f0; /* Soft light background color*/
 }
 
+
+/***************************************************BODY CSS ABOVE**************************************************/
+
+
+
+
+
+
+
+/***************************************************Header CSS BELOW************************************************/
 /* Header bar styles */
 header {
     background-color: #f8d5c2; /* Soft pastel header background*/
     padding: 10px 20px; /* Add space inside the header */
 }
 
+
+
+/*************************************************HEADER CSS ABOVE**************************************************/
+
+
+
+
+/*************************************************NAV BAR CSS BELOW*************************************************/
 /* Container for nav bar elements*/
 .navbar {
     display: flex; /* Use flexbox layout */
     align-items: center; /*Vertically center items */
     justify-content: space-between; /*Space items aprt */
-}
-
-/* Logo container styles */
-.logo {
-    display: flex; /* Use flexbox for Logo area */
-    align-items: center; /* Vertically align logo image and text */
-    margin: 0 20px; /* add some side margin*/
-}
-
-/* Logo image inside the Logo div */
-.logo img {
-    width: 50px; /* Fixed width for the Logo image */
-    height: auto; /* maintain aspect ration*/
-    margin-right: 10px; /* Space between image and text*/
-}
-
-
-/* Logo text next to the image */
-.logo span {
-    font-size: 1.5rem; /* Larger text size for brand name */
-    font-weight: bold; /* Make brand name bold*/
-    color: #333333; /* Text color matches site color */
 }
 
 /* Unordered list containing nav Links */
@@ -78,8 +85,50 @@ header {
         color: #b35f5f; /* Change color on hover */
 }
 
+/* Nav link list items in moblie view */
+.nav-links li {
+    margin: 10px 0; /* Space between stacked links*/
+    text-align: center; /* Center the tex*/
+}
+
+/*****************************************************NAV BAR CSS BELOW***********************************************/
 
 
+
+
+
+/******************************************************LOGO CSS BELOW**************************************************/
+/* Logo container styles */
+.logo {
+    display: flex; /* Use flexbox for Logo area */
+    align-items: center; /* Vertically align logo image and text */
+    margin: 0 20px; /* add some side margin*/
+}
+
+/* Logo image inside the Logo div */
+.logo img {
+    width: 50px; /* Fixed width for the Logo image */
+    height: auto; /* maintain aspect ration*/
+    margin-right: 10px; /* Space between image and text*/
+}
+
+
+/* Logo text next to the image */
+.logo span {
+    font-size: 1.5rem; /* Larger text size for brand name */
+    font-weight: bold; /* Make brand name bold*/
+    color: #333333; /* Text color matches site color */
+}
+
+
+/****************************************************LOGO CSS ABOVE************************************************************/
+
+
+
+
+
+
+/******************************************************Hamburger icon CSS below**************************************************/
 /* Hamburger icon container*/
 .hamburger {
     display: none; /* Hide hamburger on desktop*/
@@ -87,6 +136,9 @@ header {
     flex-direction: column; /* Stack hamburger lines vertically */
     cursor: pointer; /* Show pointer cursor on hover */
 }
+
+
+
 
 /* Each line of the hamburger icon */
 .hamburger span {
@@ -99,6 +151,16 @@ header {
 }
 
 
+
+
+/************************************************************Hamburger icon CSS above***********************************************/
+
+
+
+
+
+
+/************************************************************HERO IMAGE CSS BELOW****************************************************/
 /* hero section image styles */
 .hero img {
     width: 150px; /* Image fills full width */
@@ -107,7 +169,15 @@ header {
     margin-top: 20px auto 10px; /* Space above hero image */
 }
 
+/************************************************************HERO IMAGE CSS ABOVE*****************************************************/
 
+
+
+
+
+
+
+/**************************************************************GALLERY IMAGES BELOW***************************************************/
 .gallery {
     display: grid; /* Use grid layout for images */
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); /* Responsive columns */
@@ -130,11 +200,20 @@ header {
 }
 
 
+
 /* Hover effect for gallery images */
 .gallery img:hover {
     transform: scale(1.05); /* Slightly enlarge image on hover*/
 }
 
+/*************************************************************GALLERY IMAGES ABOVE*****************************************************/
+
+
+
+
+
+
+/**************************************************************MEDIA QUERY BELOW******************************************************/
 /* Media query for screens 768px wide or smaller */
 @media (max-width: 768px) {
     /* Hide nav links and stack them vertically when shown */
@@ -148,11 +227,7 @@ header {
         left: 0; /* Align to left edge */
     }
 
-/* Nav link list items in moblie view */
-.nav-links li {
-    margin: 10px 0; /* Space between stacked links*/
-    text-align: center; /* Center the tex*/
-}
+
 
 /*hamburger moblie*/
  .hamburger{
@@ -165,6 +240,12 @@ display: flex; /*Display hamburger */
     display: flex; /* Show nav links when active*/ 
 }
 }
+
+/*****************************************************************************END OF MEDIA QUERY ABOVE*************************************/
+
+
+
+
 
 
 /*Welcome style sections*/
@@ -180,8 +261,10 @@ display: flex; /*Display hamburger */
 
 .welcome-text {
     text-align: left;    /* Left align all text inside this box */
-    margin: 0 0 15px 0;
-
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
 }
 
 .welcome img {
@@ -271,7 +354,7 @@ display: flex; /*Display hamburger */
     color: #333;    /* Choose your brand color */
 }
 
-
+/***************************************************FOOTER CSS  BELOW ***********************************************************/
 /* Site footer styles */
 .site-footer {
     background-color: f8d5c2; /* same pastel as header for brand consistency */
@@ -317,21 +400,6 @@ display: flex; /*Display hamburger */
     color: #8B4513;
 }
 
-.social-icons {
-    display: flex;
-    gap: 15px;
-}
-
-.social-icon {
-    font-size: 24px;
-    text-decoration: none;
-    transition: transform 0.3s ease;
-}
-
-.social-icon:hover {
-    transform: scale(1.2);
-}
-
 .footer-bottom {
     border-top: 1px solid #ddd;
     padding-top: 15px;
@@ -348,13 +416,32 @@ display: flex; /*Display hamburger */
     color: #8B4513;
 }
 
+/********************************************************************FOOTER ABOVE******************************************/
 
-.about-content img {
-    width: 25px; /* Adjust as needed: try 200-300px for nice scale */
-    height: auto;  /* Keep aspect ration*/
-    display: block; /* Remove inline gaps */
-    margin: 20px auto; /*Center image horizontally with top/bottom space */
-    border-radius: 8 px; /* Optional: gives soft rounded corners */
+
+
+
+/**************************************************************SOCIAL ICONS CSS BELOW******************************************/
+.social-icons {
+    display: flex;
+    gap: 15px;
 }
+
+.social-icon {
+    font-size: 24px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
 
 
