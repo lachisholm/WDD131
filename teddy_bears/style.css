@@ -103,9 +103,8 @@ header {
 .hero img {
     width: 150px; /* Image fills full width */
     height:auto; /* Maintain aspect ratio */
-    float: right;
     display: block; /* Remove inline spacing */
-    margin-top: 0 0 10px 20px; /* Space above hero image */
+    margin-top: 20px auto 10px; /* Space above hero image */
 }
 
 
