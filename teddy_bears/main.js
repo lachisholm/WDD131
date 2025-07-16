@@ -112,3 +112,15 @@ galleryImages.forEach(function(image) {
 });
     
     
+//clear the cart only after successful checkout
+document.addEventListener('DOMContentLoaded', () => {
+    const confirmButton = document.getElementById('place-order-button');
+    if (confirmButton) {
+        confirmButton.addEventListener('click',() => {
+            alert('Thank you for your order!');
+            localStorage.removeItem('cart');  // Clear the cart
+            window.location.href = 'thankyou.html'; // redirect to confirmation page
+        });
+    }
+});
+
