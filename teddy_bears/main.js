@@ -80,3 +80,35 @@ galleryImages.forEach(function(image) {
             console.log('Menu closed on link click');
         });
     });
+
+
+
+    //Univeral add to cart function
+
+    function addToCart(name, price, image) {
+        const item= { name, price, image};
+        let cart = JSON.parse(localStorage.getItem('cart'));
+            alert(`${name}has been added to your cart.`);
+            }
+
+      // Show current cart count in nav
+      document.addEventListener('DOMContentLoaded', () => {
+        const countSpan = document.getelementbyID('cart-count');
+        if (countSapn) {
+            const cart = JSON.parse(localStorage.getItem('cart')) || {};
+            countSpan.textcontent = cart.length;
+        }
+
+        //clear cart button logic (only runs on cart page)
+        const clearButton = document.getElementById('clear-cart-button');
+        if (clearButton) {
+        clearButton.addEventListener('click', () => {
+            if (confirm('Are you sure you want to clear your cart?')) {
+                localStorage.removeItem('cart');
+                location.reload();
+            }
+        });
+    }
+});
+    
+    
