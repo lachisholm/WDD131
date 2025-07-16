@@ -590,8 +590,7 @@ display: flex; /*Display hamburger */
 /*FAQ Styling*/
 
 .faq-container {
-        max-width: 800px;
-        margin: 0 auto;
+        
         padding: 2rem;
 }
 
@@ -644,11 +643,7 @@ display: flex; /*Display hamburger */
 }
 
 
-.content {
-    background: #f8f9fa;
-    min-height: 100vh;
-    padding: 2rem 0;
-}
+
 
 
 
