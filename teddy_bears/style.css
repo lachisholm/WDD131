@@ -587,31 +587,36 @@ display: flex; /*Display hamburger */
 
 /*************************************************FAQs Style*************************************************************************/
 
-/*FAQ Styling*/
 
-.faq-container {
-        background: #eae7e5; /* Darker peach background for the page */
-        padding: 2rem;
+/* this will only apply peach background to the FAQ pages specifically*/
+
+.gaq-age.gaq-container{
+    background: #f4c2a1;/*Darker peach background for the page*/
+    padding: 2rem;
 }
 
+/*Default container styling for the other pages*/
+.faq-container{
+    padding:2rem;
+}
 
 .faq-item{
-    background: #f0a373; /* Light peach for question/answer boxes */
+    background:#fdf0e8; /*Light peach for question/answerboxes */
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow: hidden;
-    transition: transform 0.2s ease;
+    overflow:hidden;
+    transition:transform 0.2s ease;
 }
+
 
 .faq-item:hover{
-    transform: translateY(-2px);
+    transform:translateY(-2px);
 }
 
-.faq-question {
-    
-    background: #e1a47e; /* Light peach for question boxes */
-    padding: 1.5rem;
+.faq-question{
+    background: #fdf0e8; /* Lifht peach for question boxes*/
+    padding: 1/.5rem;
     margin: 0;
     font-size: 1.1rem;
     cursor: pointer;
@@ -624,32 +629,12 @@ display: flex; /*Display hamburger */
 }
 
 
-.faq-question:hover {
-    background: #d3a18a;
-}
-
-.faq-answer{
-    padding: 1.5rem;
-    background: #f9f9f9;
-    border-top: 1px solid #e9ecef;
-    margin: 0;
-    line-height: 1.6;
-}
-
-
-.plus-icon {
-    font-size: 1.5rem;
-    transition: transform 0.3s ease;
-}
 
 
 
 
 
-
-
-
-/**********************************************************FAQ's above********************************************************************/
+/*********************************************************FAQ's above********************************************************************/
 
 
 
