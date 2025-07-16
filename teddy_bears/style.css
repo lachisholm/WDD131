@@ -590,7 +590,7 @@ display: flex; /*Display hamburger */
 /*FAQ Styling*/
 
 .faq-container {
-        background: #bf662b; /* Darker peach background for the page */
+        background: #d1895a; /* Darker peach background for the page */
         padding: 2rem;
 }
 
@@ -625,7 +625,7 @@ display: flex; /*Display hamburger */
 
 
 .faq-question:hover {
-    background: #A0522D;
+    background: #9c654b;
 }
 
 .faq-answer{
