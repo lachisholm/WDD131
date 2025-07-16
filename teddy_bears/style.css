@@ -590,13 +590,13 @@ display: flex; /*Display hamburger */
 /*FAQ Styling*/
 
 .faq-container {
-        background: #8B4513;
+        background: #bf662b; /* Darker peach background for the page */
         padding: 2rem;
 }
 
 
 .faq-item{
-    
+    background: #f0a373; /* Light peach for question/answer boxes */
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -610,7 +610,7 @@ display: flex; /*Display hamburger */
 
 .faq-question {
     
-
+    background: #e1a47e; /* Light peach for question boxes */
     padding: 1.5rem;
     margin: 0;
     font-size: 1.1rem;
