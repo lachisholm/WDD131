@@ -590,7 +590,7 @@ display: flex; /*Display hamburger */
 /*FAQ Styling*/
 
 .faq-container {
-        
+        background: #8B4513;
         padding: 2rem;
 }
 
@@ -609,7 +609,7 @@ display: flex; /*Display hamburger */
 }
 
 .faq-question {
-    background: #8B4513;
+    
 
     padding: 1.5rem;
     margin: 0;
