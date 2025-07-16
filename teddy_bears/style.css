@@ -597,11 +597,12 @@ display: flex; /*Display hamburger */
 
 /*Default container styling for the other pages*/
 .faq-container{
+    background-color: #d27c4f; /* darker peach */
     padding:2rem;
 }
 
 .faq-item{
-    background:#d19c7c; /*Light peach for question/answerboxes */
+    background: #f5c8aa; /* Softer light peach */
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
