@@ -591,7 +591,7 @@ display: flex; /*Display hamburger */
 /* this will only apply peach background to the FAQ pages specifically*/
 
 .faq-age.faq-container{
-    background: #f1d8c7;/*Darker peach background for the page*/
+    background: #d28653;/*Darker peach background for the page*/
     padding: 2rem;
 }
 
@@ -601,7 +601,7 @@ display: flex; /*Display hamburger */
 }
 
 .faq-item{
-    background:#e49361; /*Light peach for question/answerboxes */
+    background:#d19c7c; /*Light peach for question/answerboxes */
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
