@@ -568,13 +568,13 @@ display: flex; /*Display hamburger */
     transform: scale(1.03);
 }
 
-
+/*this does the grid layout -- this is the one I still need to work more on, to learn to change various styles  --- note to self ----*/
 .product-card img{
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 10px;
+    width: 100%;  /* makes image fill the card width*/
+    height: 200px; /* sets consistent height for all images*/
+    object-fit: cover; /*crops images to fit without the distortion*/
+    border-radius: 8px; /*  this is how I rounded the corners of the boxes*/
+    margin-bottom: 10px; /* this adds space between image and text on the boxes*/
 }
 
 /******************************************************PRODUCT GRID CSS for products page********************************************/
