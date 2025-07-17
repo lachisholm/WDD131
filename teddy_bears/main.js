@@ -87,8 +87,10 @@ galleryImages.forEach(function(image) {
 
     function addToCart(name, price, image) {
         const item= { name, price, image};
-        let cart = JSON.parse(localStorage.getItem('cart'));
-            alert(`${name}has been added to your cart.`);
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        cart.push(item);
+        localStorage.setItam('cart', JSON.stringify(cart));
+        alert(`${name}has been added to your cart.`);
             }
 
       // Show current cart count in nav
@@ -130,7 +132,7 @@ function displayCartitems(){
     const cartItemsDiv = document.getElementById('cart-items');
 
     if (cartItems.length ===0) {
-        cartItemsDiv.innerHTML = '<p>Your cart is empty</p>;
+        cartItemsDiv.innerHTML = '<p>Your cart is empty</p>';
         return;
     }
 
