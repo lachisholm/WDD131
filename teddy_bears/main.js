@@ -124,3 +124,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+// Add this function to your main.js file
+function displayCartitems(){
+    const cartItems = JSON.parse(localStroage.getitem('cart')) || [];
+    const cartItemsDiv = document.getElementById('cart-items');
+
+    if (cartItems.length ===0) {
+        cartItemsDiv.innerHTML = '<p>Your cart is empty</p>;
+        return;
+    }
+
+    let cartHtml = '';
+    cartItems.forEach(item => {
+        cartHTML +=
+        <div>
+        <h3>${item.name}</h3>
+        <p>$${itemprice}</p>
+        </div>
+    ;
+    });
+    cartItemsDiv.innerHTML = cartHTML;
+}
+
+//call when cart page oads
+if (document.getElementById('cart-items')) {
+    displayCartItems();
+}
