@@ -20,7 +20,7 @@
 body {
     font-family: arial, Helvetica, sans-serif; /* Set fallback font stack */
     line-height: 1.6; /* Comfortable line spacing */
-    background-color: #e6bda8;
+    background-color: #add4e5;
 }
 
 
@@ -80,7 +80,7 @@ header {
 /* Anchor tags inside nav links */
 .nav-links li a {
     text-decoration: none; /* Remove underline from links*/
-    color: #333333; /* Link color same as text */
+    color: #efe8e8; /* Link color same as text */
     font-weight: bold; /* Make links bold*/
     
 
@@ -88,7 +88,7 @@ header {
 
 
 .nav-links li a:hover {
-        color: #b35f5f; /* Change color on hover */
+        color: #3225e6; /* Change color on hover */
 }
 
 /* Nav link list items in moblie view */
