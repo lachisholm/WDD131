@@ -448,7 +448,7 @@ display: flex; /*Display hamburger */
 .logo span {
     font-size: 1.5rem;   /* Adjust text size */
     font-weight: bold;   /* Make it stand out*/
-    color: #333;    /* Choose your brand color */
+    color: #f7f9fb;    /* Choose your brand color */
 }
 
 /***************************************************FOOTER CSS  BELOW ***********************************************************/
