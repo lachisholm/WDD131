@@ -655,7 +655,7 @@ display: flex; /*Display hamburger */
 
 /*color of question box*/
 .faq-item{
-    background: #f1eeee;
+    background: #0e0e0e;
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
