@@ -74,7 +74,7 @@ header {
 
 /* Each list item inside nav-links*/
 .nav-links li {
-    color: black;
+    color: white;
     margin-left: 20px; /* Space between each nav link*/
 }
 
