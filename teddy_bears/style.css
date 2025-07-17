@@ -346,13 +346,7 @@ header {
 /*****************************************************************OUTSIDE MEDIA CONTACT FORM ABOVE ****************************************/
 
 
-/***********************************************CONTENT - faqs page- questions & Answers**************************************************/
 
-/*FAQ section spacing */
-.content {
-    color: rgb(7, 7, 6);
-    padding: 0 1in; /* Adds 1 inch of space onleft and right*/
-}
 
 
 
@@ -653,9 +647,9 @@ display: flex; /*Display hamburger */
     padding: 2rem;
 }
 
-/*Default container styling for the other pages*/
+/*Default container styling for the other pages big box on top of page*/
 .faq-container{
-    background-color: #82ece6; 
+    background-color: #82beec; 
     padding:2rem;
 }
 
@@ -672,6 +666,9 @@ display: flex; /*Display hamburger */
 .faq-item:hover{
     transform:translateY(-2px);
 }
+
+/* is this the words?*/
+
 
 .faq-question{
     background: #0b0b0bf7;
@@ -696,6 +693,12 @@ display: flex; /*Display hamburger */
 /*********************************************************FAQ's above********************************************************************/
 
 
+/***********************************************CONTENT - faqs page- questions & Answers**************************************************/
 
+/*FAQ section spacing */
+.content {
+    color: rgb(234, 233, 239);
+    padding: 0 1in; /* Adds 1 inch of space onleft and right*/
+}
 
 
