@@ -593,13 +593,13 @@ display: flex; /*Display hamburger */
 /* this will only apply peach background to the FAQ pages specifically*/
 
 .faq-age.faq-container{
-    background: #d28653;/*Darker peach background for the page*/
+    background: #ece9e7;/*Darker peach background for the page*/
     padding: 2rem;
 }
 
 /*Default container styling for the other pages*/
 .faq-container{
-    background-color: #d27c4f; /* darker peach */
+    background-color: #ceb5a7; /* darker peach */
     padding:2rem;
 }
 
