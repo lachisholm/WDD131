@@ -27,7 +27,7 @@ body {
 /***************************************************BODY CSS ABOVE**************************************************/
 
 
-/*************************************************BLOG IMAGE******************************************************/
+/*************************************************BLOG *************************************************************/
 .blog-image {
     width: 100%;
     max-width: 600px;
@@ -35,6 +35,56 @@ body {
     display: block;
     margin: 20px auto;
     border-radius: 8px;
+}
+
+.blog-preview {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 40px auto;
+    padding: 30px;
+    max-width: 800px;
+    transition: transform 0.3 ease;
+    }
+
+
+.blog-preview:hover {
+    transform: translateY(-3px);
+}
+
+
+.blog-preview h2 {
+    color: #2f3ff4;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+.blog-preview h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.blog-preview h2 a:hover {
+    color: #5147d4;
+}
+
+.blog-preview p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.read-more-btn {
+    background: #2f3ff4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background: #5147d4;
 }
 
 
