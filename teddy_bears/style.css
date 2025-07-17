@@ -81,7 +81,7 @@ header {
 /* Anchor tags inside nav links */
 .nav-links li a {
     text-decoration: none; /* Remove underline from links*/
-    color: #080808; /* Link color same as text */
+    color: white; /* Link color same as text */
     font-weight: bold; /* Make links bold*/
     
 
