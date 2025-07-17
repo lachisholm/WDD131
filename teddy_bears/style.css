@@ -503,7 +503,7 @@ display: flex; /*Display hamburger */
     font-size: 2.5rem; /* Large heading size*/
     color: var(--heading-color); /*Accent color matching hover effect*/
     margin-bottom: 15px; /* Space below heading*/
-    font-weight: 1.8; /* Make heading bold*/
+    font-weight: bold; /* Make heading bold*/
 }
 
 /* Welcome section paragraphs */
