@@ -1,3 +1,29 @@
+
+
+:root {
+    --background-color: #fffaf5;
+    --header-bg: #f8d5c2;
+    --accent-color: #e07a5f;
+    --accent-hover: #d1624c;
+    --text-color: #333333;
+    --text-light: #666666;
+    --border-color: #cccccc;
+    --card-bg: #fef3eb;
+    --footer-bg: #f4bfb3;
+    --link-color: #b95d4f;
+    --highlight-bg: #fff3cd;
+    --success-bg: #d4edda;
+    --error-bg: #f8d7da;
+}
+
+
+
+
+
+
+
+
+
 /* Reset default margin, padding, and set box-sizing for all elements*/
 * {
     margin: 0; /* Remove default margin*/
@@ -20,7 +46,7 @@
 body {
     font-family: arial, Helvetica, sans-serif; /* Set fallback font stack */
     line-height: 1.6; /* Comfortable line spacing */
-    background-color: #b7d9e8;
+    background-color: var(--background-color);
 }
 
 
@@ -45,9 +71,9 @@ body {
 }
 
 .blog-preview {
-    background: white;
+    background: var(--card-bg);
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(51,51,51,0.1);
     margin: 40px auto;
     padding: 30px;
     max-width: 800px;
@@ -61,7 +87,7 @@ body {
 
 
 .blog-preview h2 {
-    color: #2f3ff4;
+    color: var(--text-color);
     margin-bottom: 15px;
     font-size: 1.8rem;
 }
@@ -72,7 +98,7 @@ body {
 }
 
 .blog-preview h2 a:hover {
-    color: #5147d4;
+    color: var(--accent-color);
 }
 
 .blog-preview p {
@@ -81,8 +107,8 @@ body {
 }
 
 .read-more-btn {
-    background: #2f3ff4;
-    color: white;
+    background: var(--accent-color);
+    color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -91,7 +117,7 @@ body {
 }
 
 .read-more-btn:hover {
-    background: #5147d4;
+    background: var(--accent-hover);
 }
 /*******************************************************************BLOG ABOVE*************************************/
 
@@ -108,7 +134,7 @@ body {
 
 .checkout-form label {
     font-weight: bold;
-    color: #333;
+    color: var(--text-color);
 }
 
 .checkout-form input,
@@ -116,15 +142,15 @@ body {
 .checkout-form select {
     padding: 12px;
     font-size: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
     border-radius: 6px;
     width: 100%;
     box-sizing: border-box;
 }
 
 .checkout-form button {
-    background-color: #2f3ff4;
-    color: white;
+    background-color: var(--accent-color);
+    color: fff;
     padding: 12px;
     font-size: 1rem;
     border: none;
@@ -133,7 +159,7 @@ body {
 }
 
 .checkout-form button:hover {
-    background-color: #5147d4;
+    background-color: var(--accent-hover);
 }
 
 
@@ -146,7 +172,7 @@ body {
 /***************************************************Header CSS BELOW************************************************/
 /* Header bar styles */
 header {
-    background-color: #2f3ff4; 
+    background-color: var(--header-bg); 
     padding: 10px 20px; /* Add space inside the header */
 }
 
@@ -179,14 +205,14 @@ header {
 
 /* Each list item inside nav-links*/
 .nav-links li {
-    color: white;
+    color: fff;
     margin-left: 20px; /* Space between each nav link*/
 }
 
 /* Anchor tags inside nav links */
 .nav-links li a {
     text-decoration: none; /* Remove underline from links*/
-    color: white; /* Link color same as text */
+    color: fff; /* Link color same as text */
     font-weight: bold; /* Make links bold*/
     
 
@@ -194,7 +220,7 @@ header {
 
 
 .nav-links li a:hover {
-        color: #5147d4; /* Change color on hover */
+        color: var( --accent-hover);
 }
 
 /* Nav link list items in moblie view */
@@ -214,14 +240,18 @@ header {
 .logo {
     display: flex; /* Use flexbox for Logo area */
     align-items: center; /* Vertically align logo image and text */
-    margin: 0 20px; /* add some side margin*/
+    gap: 10px; 
+    margin-left: 20px; /* add some side margin*/
+    padding: 10px 0;
 }
 
 /* Logo image inside the Logo div */
 .logo img {
     width: 50px; /* Fixed width for the Logo image */
+    max-height: 50px;  /*prevents stretching if image changes*/
     height: auto; /* maintain aspect ration*/
     margin-right: 10px; /* Space between image and text*/
+
 }
 
 
@@ -229,7 +259,7 @@ header {
 .logo span {
     font-size: 1.5rem; /* Larger text size for brand name */
     font-weight: bold; /* Make brand name bold*/
-    color: #333333; /* Text color matches site color */
+    color: var(--text-color); 
 }
 
 
@@ -256,7 +286,7 @@ header {
 .hamburger span {
     height: 3px; /*Thickness of each line*/
     width: 25px; /* Width of each line*/
-    background: #333333; /*Color of hamburger lines*/
+    background: var(--text-color); /*Color of hamburger lines*/
     margin: 4px 0; /* Space between lines */
     transition: all 0.3s ease; /* Smooth transition for animations */ 
 
@@ -360,7 +390,7 @@ header {
     display: block;
     margin-top: 10px;
     font-weight: bold;
-    color: #333
+    color: var(--text-color)
 }
 
 
@@ -368,15 +398,15 @@ header {
 
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid #CCC;
+    border: 1px solid var(--border-color);;
     border-radius: 4px;
     width:100%;
     box-sizing:border-box;
 }
 
 .contact-form button{
-    background-color: #25138b;
-    color: white;
+    background-color: var(--accent-color);
+    color: #fff;
     padding: 12px;
     font-size: 1rem;
     border: none;
@@ -387,7 +417,7 @@ header {
 
 
 .contact-form button:hover{
-    background-color: #2d87a0;
+    background-color: var(--accent-hover);
 }
 
 
@@ -408,7 +438,7 @@ header {
         display: none; /* Hidden*/
         flex-direction: column; /*stack links vertically */
         width: 100%; /* Full Width */
-        background-color: #f8d5c2; /*Same as header background*/
+        background-color: var(--header-bg); /*Same as header background*/
         position: absolute; /* Position absolutely below nav bar */
         top: 60px; /* place below header */
         left: 0; /* Align to left edge */
@@ -471,15 +501,15 @@ display: flex; /*Display hamburger */
 .welcome h1 {
 
     font-size: 2.5rem; /* Large heading size*/
-    color: #0e0d0d; /*Accent color matching hover effect*/
-    margin-bottom: 20px; /* Space below heading*/
-    font-weight: bold; /* Make heading bold*/
+    color: var(--heading-color); /*Accent color matching hover effect*/
+    margin-bottom: 15px; /* Space below heading*/
+    font-weight: 1.8; /* Make heading bold*/
 }
 
 /* Welcome section paragraphs */
 .welcome p {
     font-size: 1/1rem; /* Slightly larger text */
-    color: #090909; /* Text color matching site theme */
+    color: var(--text-color); /* Text color matching site theme */
     margin-bottom: 15px; /*Space between my paragraphs*/
     line-height: 1.8; /* Comfortable line spacing*/
 }
@@ -497,7 +527,7 @@ display: flex; /*Display hamburger */
 /* About page heading */
 .about-content h1{
     font-size: 2.5rem; /* Large heading size */
-    color: #060606; /* Brown color matching site theme*/
+    color: var(--heading-color); /* Brown color matching site theme*/
     margin-bottom: 30px; /* Space below heading */
     font-weight: bold; /* Make heading bold*/
 }
@@ -505,7 +535,7 @@ display: flex; /*Display hamburger */
 /* About page paragraphs */
 .about-content p {
     font-size: 1/1rem; /* Slightly larger text */
-    color: 33333; /* Text color matching site theme */
+    color: var(--text-color); /* Text color matching site theme */
     margin-bottom: 20px; /* space between paragraphs */
     line-height: 1.8; /* Comfortable line spacing */
     text-align: left; /*Left align paragraph text */
@@ -513,14 +543,14 @@ display: flex; /*Display hamburger */
 
 /* Back link styling*/
 .back-link a {
-    color: 8B4513; /* Brown color*/
+    color: var(--accent-color);
     text-decoration: none; /* Remove underline*/
     font-weight: bold; /*Make link bold*/
     font-size: 1.1rem; /*Slightly larger text */
 }
 
 .back-link a:hover {
-    color: 654321; /* Darker brown on hover*/
+    color: var(--accent-hover);
 }
 
 
@@ -545,7 +575,7 @@ display: flex; /*Display hamburger */
 .logo span {
     font-size: 1.5rem;   /* Adjust text size */
     font-weight: bold;   /* Make it stand out*/
-    color: #f4f2f2;    /* Choose your brand color */
+    color: var(--heading-color);    /* Choose your brand color */
 }
 
 /***************************************************FOOTER CSS  BELOW ***********************************************************/
@@ -554,7 +584,7 @@ display: flex; /*Display hamburger */
     background-color: f8d5c2; /* same pastel as header for brand consistency */
     text-align: center;  /* center the footer text*/
     padding: 20px 0;   /* top and bottom padding */
-    color: #060606;   /* dark text for contrast */
+    color: var(--text-color);   /* dark text for contrast */
     font-size: 0.9rem;  /* slightly smaller text */
     margin-top: 40px;   /* space above footer if needed */
 }
@@ -570,7 +600,7 @@ display: flex; /*Display hamburger */
 }
 
 .footer-section h3 {
-    color: #396ced;
+    color: var(--heading-color);
     margin-bottom: 15px;
 }
 
@@ -587,28 +617,28 @@ display: flex; /*Display hamburger */
 }
 
 .footer-section ul li a {
-    color: #333;
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .footer-section li a:hover {
-    color: #4c6cb3;
+    color: var(--accent-hover);
 }
 
 .footer-bottom {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid var(--border-color);
     padding-top: 15px;
     text-align: center;
 }
 
 .site-footer i {
     font-size: 24px;
-    color: #0a0a0a;
+    color: var(--heading-color);
     margin-left: 10px;
 }
 
 .site-footer i:hover {
-    color: #71b5f9;
+    color: var(--accent-hover);
 }
 
 /********************************************************************FOOTER ABOVE******************************************/
@@ -654,11 +684,11 @@ display: flex; /*Display hamburger */
 
 
 .product-card {
-    border: 1px solid #CCC;
+    border: 1px solid var(--card-border);
     border-radius: 10px;
     padding: 16px;
     text-align: center;
-    background-color: #fffaf5;
+    background-color: var(--card-bg);
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     transition: transform 0.3s ease;
     max-width: 240px;
@@ -690,7 +720,7 @@ display: flex; /*Display hamburger */
 
 /* this will only apply  background to the FAQ pages specifically*/
 .faq-age.faq-container{
-    background: #ece9e7;
+    background: var(--faq-bg);
     padding: 2rem;
 }
 
@@ -701,19 +731,19 @@ display: flex; /*Display hamburger */
 
 /*Default container styling for the other pages big box on top of page
 .faq-container{
-    background-color: #bed3e3; 
+    background-color: var(--section-bg); 
     padding:2rem;
 }*/
 
 
 /*color of question box on the faq page*/
 .faq-item{
-    background: #f7f9fb;
+    background: var(--card-soft);
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    overflow:hidden;
-    transition:transform 0.2s ease;
+    overflow: hidden;
+    transition: transform 0.2s ease;
 }
 
 
@@ -725,7 +755,7 @@ display: flex; /*Display hamburger */
 
 
 .faq-question{
-    background: #fcfafaf7;
+    background: var(--card-soft);
     padding: 1/.5rem;
     margin: 0;
     font-size: 1.1rem;
@@ -741,8 +771,8 @@ display: flex; /*Display hamburger */
 
 /*FAQ section spacing color for the text in the question boxes*/
 .content {
-    color: rgb(9, 9, 9);
-    padding: 0 1in; /* Adds 1 inch of space onleft and right*/
+    color: var(--text-color);
+    padding: 0 2rem; /* Adds 1 inch of space onleft and right*/
 }
 
 
