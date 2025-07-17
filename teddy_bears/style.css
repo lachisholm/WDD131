@@ -648,7 +648,7 @@ display: flex; /*Display hamburger */
 
 /*Default container styling for the other pages big box on top of page*/
 .faq-container{
-    background-color: #b7d5ec; 
+    background-color: #bed3e3; 
     padding:2rem;
 }
 
@@ -686,6 +686,12 @@ display: flex; /*Display hamburger */
 }
 
 
+/*FAQ section spacing */
+.content {
+    color: rgb(234, 233, 239);
+    padding: 0 1in; /* Adds 1 inch of space onleft and right*/
+}
+
 
 
 
@@ -693,13 +699,5 @@ display: flex; /*Display hamburger */
 
 /*********************************************************FAQ's above********************************************************************/
 
-
-/***********************************************CONTENT - faqs page- questions & Answers**************************************************/
-
-/*FAQ section spacing */
-.content {
-    color: rgb(234, 233, 239);
-    padding: 0 1in; /* Adds 1 inch of space onleft and right*/
-}
 
 
