@@ -41,7 +41,7 @@ body {
 /***************************************************Header CSS BELOW************************************************/
 /* Header bar styles */
 header {
-    background-color: #1e075a; /* Soft pastel header background*/
+    background-color: #1e075a; 
     padding: 10px 20px; /* Add space inside the header */
 }
 
@@ -74,6 +74,7 @@ header {
 
 /* Each list item inside nav-links*/
 .nav-links li {
+    color: black;
     margin-left: 20px; /* Space between each nav link*/
 }
 
