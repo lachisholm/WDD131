@@ -646,11 +646,11 @@ display: flex; /*Display hamburger */
     padding: 2rem;
 }
 
-/*Default container styling for the other pages big box on top of page*/
+/*Default container styling for the other pages big box on top of page
 .faq-container{
     background-color: #bed3e3; 
     padding:2rem;
-}
+}*/
 
 
 /*color of question box on the faq page*/
@@ -672,7 +672,7 @@ display: flex; /*Display hamburger */
 
 
 .faq-question{
-    background: #0b0b0bf7;
+    background: #fcfafaf7;
     padding: 1/.5rem;
     margin: 0;
     font-size: 1.1rem;
