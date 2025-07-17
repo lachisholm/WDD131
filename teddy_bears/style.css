@@ -282,6 +282,7 @@ header {
 
 /*FAQ section spacing */
 .content {
+    color: beige;
     padding: 0 1in; /* Adds 1 inch of space onleft and right*/
 }
 
