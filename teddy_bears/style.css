@@ -1,22 +1,59 @@
 
 
+/* Disabled lighter peachy color palette using a dummy selector */
+.disabled-theme-palette {
+    /* Do not remove this root block — it safely disables the entire palette */
+    :root {
+        --background-color: #fffaf5;
+        --header-bg: #f8d5c2;
+        --accent-color: #e07a5f;
+        --accent-hover: #d1624c;
+        --text-color: #333333;
+        --text-light: #666666;
+        --border-color: #cccccc;
+        --card-bg: #fef3eb;
+        --footer-bg: #f4bfb3;
+        --link-color: #b95d4f;
+        --highlight-bg: #fff3cd;
+        --success-bg: #d4edda;
+        --error-bg: #f8d7da;
+    }
+
+
+/* Active: 1-tone darker soft peach color palette */
 :root {
-    --background-color: #fffaf5;
-    --header-bg: #f8d5c2;
-    --accent-color: #e07a5f;
-    --accent-hover: #d1624c;
-    --text-color: #333333;
-    --text-light: #666666;
-    --border-color: #cccccc;
-    --card-bg: #fef3eb;
-    --footer-bg: #f4bfb3;
-    --link-color: #b95d4f;
-    --highlight-bg: #fff3cd;
-    --success-bg: #d4edda;
-    --error-bg: #f8d7da;
+    --background-color: #f5eee8;    /* page bg */
+    --header-bg: #e9bfae;           /* header/nav bg */
+    --accent-color: #cc6a52;        /* buttons, icons */
+    --accent-hover: #b8533e;        /* hover state */
+    --text-color: #1f1f1f;          /* main text */
+    --text-light: #4d4d4d;          /* subtext */
+    --border-color: #999999;        /* input/card borders */
+    --card-bg: #e6d6cf;             /* product/blog boxes */
+    --footer-bg: #dc9c90;           /* footer bg */
+    --link-color: #994239;          /* links */
+    --highlight-bg: #ffe89a;        /* notices/warnings */
+    --success-bg: #a8d5b2;          /* success messages */
+    --error-bg: #f0b5b8;            /* error messages */
+}
 }
 
-
+/* color palette: soft pink & blush tones with contrast and elegance */
+:root {
+    --background-color: #fff0f5;    /* pale blush background for body */
+    --header-bg: #f8c9d4;           /* soft rose header/nav background */
+    --accent-color: #e5739f;        /* primary pink for buttons, CTAs */
+    --accent-hover: #d15a87;        /* darker pink for hover/focus */
+    --text-color: #333333;          /* primary text: dark gray for contrast */
+    --text-light: #777777;          /* secondary text: light gray for subtext */
+    --border-color: #cccccc;        /* light gray for input/card borders */
+    --card-bg: #ffe6ee;             /* card/box backgrounds (FAQ/product/blog) */
+    --footer-bg: #f3a5b7;           /* footer in bright warm pink for contrast */
+    --link-color: #b84d72;          /* links: warm berry pink */
+    --highlight-bg: #fff6cc;        /* yellow highlight bg for alerts/warnings */
+    --success-bg: #cdeacc;          /* soft green for form success */
+    --error-bg: #f8bcbc;            /* light red-pink for errors or warnings */
+}
 
 
 
