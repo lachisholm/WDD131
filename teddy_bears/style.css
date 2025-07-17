@@ -216,7 +216,18 @@ header {
 /*************************************************************GALLERY IMAGES ABOVE*****************************************************/
 
 
+/*******************************************CONTACT US PAGE*************************************************************************/
 
+
+/*panda bear image*/
+
+.contact-image {
+    display: block;
+    max-width: 400px; /*adjust size*/
+    width: 90%; /*Responsive*/
+    margin: 30px auto;
+}
+    
 
 
 
@@ -282,7 +293,7 @@ header {
 
 /*FAQ section spacing */
 .content {
-    color: beige;
+    color: rgb(7, 7, 6);
     padding: 0 1in; /* Adds 1 inch of space onleft and right*/
 }
 
@@ -324,19 +335,6 @@ display: flex; /*Display hamburger */
     padding: 40px 20px;
     text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 /*****************************************************************************END OF MEDIA QUERY ABOVE*************************************/
 
