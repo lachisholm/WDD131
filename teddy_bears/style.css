@@ -600,7 +600,7 @@ display: flex; /*Display hamburger */
 
 /*Default container styling for the other pages*/
 .faq-container{
-    background-color: #f5f4f3; 
+    background-color: #b8e7e5; 
     padding:2rem;
 }
 
@@ -619,7 +619,7 @@ display: flex; /*Display hamburger */
 }
 
 .faq-question{
-    background: #070707;
+    background: #0b0b0bf7;
     padding: 1/.5rem;
     margin: 0;
     font-size: 1.1rem;
