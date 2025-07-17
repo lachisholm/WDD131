@@ -640,8 +640,7 @@ display: flex; /*Display hamburger */
 /*************************************************FAQs Style*************************************************************************/
 
 
-/* this will only apply peach background to the FAQ pages specifically*/
-
+/* this will only apply  background to the FAQ pages specifically*/
 .faq-age.faq-container{
     background: #ece9e7;
     padding: 2rem;
@@ -653,8 +652,10 @@ display: flex; /*Display hamburger */
     padding:2rem;
 }
 
+
+/*color of question box*/
 .faq-item{
-    background: #aa3d3d;
+    background: #f1eeee;
     margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
