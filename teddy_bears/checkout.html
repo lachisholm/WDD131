@@ -31,12 +31,29 @@
         </header>
 
         <main>
-            <section class="content">
-                <h1>Thank You for Your Order!</h1>
-                <p> Your teddy bears are being prepared for their journey.</p>
-                <p> A confirmation email will be sent to you shortly.</p>
-                <a href="products.html"><button>Continue Shopping</button></a>
+            <section class="checkout-content">
+                <h1>Checkout</h1>
+                <h2>We’re here to help — complete your purchase below</h2>
+                <p>Please fill in your information below to complete your purchase.</p>
+
+                <form class="checkout-form" action="#" method="POST">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="address">Shipping Address</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+
+                    <label for="payment">Payment Method</label>
+                    <select id="payment" name="payment" required>
+                        <option value="">Choose...</option>
+                        <option value="credit">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                     </select>
+
+                    <button type="submit">Place Order</button>
+                </form>
             </section>
+
         </main>
 
 
@@ -49,15 +66,14 @@
                 <p>Phone: (555)123-4567</p>
                 <p>Address: 123 Bear Lane, Cuddle City, CC 12345</p>
             </div>
-            <div class = "footer - section">
+            <div class ="footer-section">
                 <h3>Quick Links</h3>
-                
             </div>
+            
             <div class="footer-bottom">
                 <p>&copy; 2025 Teddy Bears Website.  All rights reserved.</p>
             </div>
         </footer>
-
         <script src ="main.js"></script>
     </body>
 </head>
